@@ -1,0 +1,15 @@
+D:\TAP\csharp\helloapp\bin\Debug\net9.0\helloapp.exe
+D:\TAP\csharp\helloapp\bin\Debug\net9.0\helloapp.deps.json
+D:\TAP\csharp\helloapp\bin\Debug\net9.0\helloapp.runtimeconfig.json
+D:\TAP\csharp\helloapp\bin\Debug\net9.0\helloapp.dll
+D:\TAP\csharp\helloapp\bin\Debug\net9.0\helloapp.pdb
+D:\TAP\csharp\helloapp\obj\Debug\net9.0\helloapp.GeneratedMSBuildEditorConfig.editorconfig
+D:\TAP\csharp\helloapp\obj\Debug\net9.0\helloapp.AssemblyInfoInputs.cache
+D:\TAP\csharp\helloapp\obj\Debug\net9.0\helloapp.AssemblyInfo.cs
+D:\TAP\csharp\helloapp\obj\Debug\net9.0\helloapp.csproj.CoreCompileInputs.cache
+D:\TAP\csharp\helloapp\obj\Debug\net9.0\helloapp.sourcelink.json
+D:\TAP\csharp\helloapp\obj\Debug\net9.0\helloapp.dll
+D:\TAP\csharp\helloapp\obj\Debug\net9.0\refint\helloapp.dll
+D:\TAP\csharp\helloapp\obj\Debug\net9.0\helloapp.pdb
+D:\TAP\csharp\helloapp\obj\Debug\net9.0\helloapp.genruntimeconfig.cache
+D:\TAP\csharp\helloapp\obj\Debug\net9.0\ref\helloapp.dll
