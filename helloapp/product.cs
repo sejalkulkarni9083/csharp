@@ -1,10 +1,13 @@
-namespace Catalog  //Module name
-{
-    public class Product  //blueprint
-    {
-        public int Id { get; set; }         //properties
-        public string Title { get; set; }   //properties
-        public string Description { get; set; }     
-        public decimal Price { get; set; }
-    }
+namespace Catalog;
+
+
+//Entity Class
+
+public class Product{
+    public int Id{get;set;}
+    public string Title{get;set;}
+    public string Description{get;set;}
+    public int Quantity{get;set;}
+    public double Price{get;set;}
+
 }
