@@ -5,10 +5,9 @@ using System.Data;
 
 class directconnectivity
 {
-    // This is a simple C# program that connects to a MySQL database, creates a table,
     static void Main()
     { 
-     string connectionString = "Server=localhost;Port=3306;Database=sample;User=root;Password=password;";
+     string connectionString = "Server=localhost;Port=3307;Database=sample;User=root;Password=password;";
       using(MySqlConnection connection = new MySqlConnection(connectionString))
       {
             try
@@ -29,7 +28,6 @@ class directconnectivity
             {
                 connection.Close();
             }
-            // The following methods are used to create a table, insert a user, update a user's email, and delete a user.
             
             static void CreateTable(MySqlConnection connection)
             {
@@ -44,12 +42,12 @@ class directconnectivity
             static void InsertUser(MySqlConnection connection, string name,string email)
             {
               string insertSql = "INSERT INTO users (name, email) VALUES (@name, @email)";
-                using (MySqlCommand insertCommand = new MySqlCommand(insertSql, connection))
+                using (MySqlCommand cmd = new MySqlCommand(insertSql, connection))
                 {
-                    insertCommand.Parameters.AddWithValue("@name", name);
-                    insertCommand.Parameters.AddWithValue("@email", email);
+                    cmd.Parameters.AddWithValue("@name", name);
+                    cmd.Parameters.AddWithValue("@email", email);
 
-                    int rowsAffected = insertCommand.ExecuteNonQuery();
+                    int rowsAffected = cmd.ExecuteNonQuery();
                     Console.WriteLine($"Inserted {rowsAffected} row(s) into the users table.");
                 }
 
@@ -58,21 +56,21 @@ class directconnectivity
             {
                     
                     string updateSql = "UPDATE users SET email = @newEmail WHERE name = @name";
-                using (MySqlCommand updateCommand = new MySqlCommand(updateSql, connection))
+                using (MySqlCommand updateCmd = new MySqlCommand(updateSql, connection))
                 {
-                    updateCommand.Parameters.AddWithValue("@name", name);
-                    updateCommand.Parameters.AddWithValue("@newEmail", newEmail);   
-                    updateCommand.ExecuteNonQuery();
+                    updateCmd.Parameters.AddWithValue("@name", name);
+                    updateCmd.Parameters.AddWithValue("@newEmail", newEmail);   
+                    updateCmd.ExecuteNonQuery();
                     
                     }
             }
             static void DeleteUser(MySqlConnection connection,int id)
             {
                     string deleteSql = "DELETE FROM users WHERE id = @id";
-                    using (MySqlCommand deleteCommand = new MySqlCommand(deleteSql, connection))
+                    using (MySqlCommand deleteCmd = new MySqlCommand(deleteSql, connection))
                     {
-                        deleteCommand.Parameters.AddWithValue("@id", id);
-                        deleteCommand.ExecuteNonQuery();
+                        deleteCmd.Parameters.AddWithValue("@id", id);
+                        deleteCmd.ExecuteNonQuery();
 
                     }
             }
