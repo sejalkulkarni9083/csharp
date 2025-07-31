@@ -2,11 +2,11 @@
 using System;
 using System.Data;
 
-class directconnectivity
+class Directconnectivity
 {
     static void Main()
     { 
-     string connectionString = "Server=localhost;Port=3307;Database=sample;User=root;Password=password;";
+     string connectionString = "Server=localhost;Port=3306;Database=sample;User=root;Password=root;";
       using(MySqlConnection connection = new MySqlConnection(connectionString))
       {
             try

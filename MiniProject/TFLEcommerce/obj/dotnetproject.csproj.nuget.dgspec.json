@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\TAP\\csharp\\MiniProject\\dotnetproject\\dotnetproject.csproj": {}
+    "D:\\TAP\\csharp\\MiniProject\\TFLEcommerce\\dotnetproject.csproj": {}
   },
   "projects": {
-    "D:\\TAP\\csharp\\MiniProject\\dotnetproject\\dotnetproject.csproj": {
+    "D:\\TAP\\csharp\\MiniProject\\TFLEcommerce\\dotnetproject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\TAP\\csharp\\MiniProject\\dotnetproject\\dotnetproject.csproj",
+        "projectUniqueName": "D:\\TAP\\csharp\\MiniProject\\TFLEcommerce\\dotnetproject.csproj",
         "projectName": "dotnetproject",
-        "projectPath": "D:\\TAP\\csharp\\MiniProject\\dotnetproject\\dotnetproject.csproj",
+        "projectPath": "D:\\TAP\\csharp\\MiniProject\\TFLEcommerce\\dotnetproject.csproj",
         "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "D:\\TAP\\csharp\\MiniProject\\dotnetproject\\obj\\",
+        "outputPath": "D:\\TAP\\csharp\\MiniProject\\TFLEcommerce\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -43,6 +43,12 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[9.4.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
