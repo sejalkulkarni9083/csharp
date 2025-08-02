@@ -217,6 +217,10 @@ class DirectConnectivity
             {
                 Console.WriteLine("Error fetching Products: " + ex.Message);
             }
+            finally
+            {
+                connection.Close();
+            }
         }
     }
 }
