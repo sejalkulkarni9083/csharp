@@ -93,14 +93,14 @@ class DirectConnectivity
                 using (MySqlCommand cmd = new MySqlCommand(CreateTableSql, connection))
                 {
                     cmd.ExecuteNonQuery();
-                    Console.WriteLine("Table created..........");
+                    Console.WriteLine("Table is created..........");
                 }
 
             }
 
             catch (Exception ex)
             {
-                Console.WriteLine("Error creating : " + ex.Message);
+                Console.WriteLine("Error creating the table: " + ex.Message);
             }
 
             finally
@@ -131,7 +131,7 @@ class DirectConnectivity
             }
             catch (Exception ex)
             {
-                Console.WriteLine("Error inserting user: " + ex.Message);
+                Console.WriteLine("Error inserting the user: " + ex.Message);
             }
             finally
             {
@@ -184,7 +184,7 @@ class DirectConnectivity
             }
             catch (Exception ex)
             {
-                Console.WriteLine("Error deleting product: " + ex.Message);
+                Console.WriteLine("Error deleting the product: " + ex.Message);
             }
             finally
             {
