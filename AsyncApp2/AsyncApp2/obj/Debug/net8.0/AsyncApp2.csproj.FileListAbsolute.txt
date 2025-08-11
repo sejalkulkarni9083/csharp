@@ -1,0 +1,15 @@
+D:\TAP\csharp\AsyncApp2\AsyncApp2\bin\Debug\net8.0\AsyncApp2.exe
+D:\TAP\csharp\AsyncApp2\AsyncApp2\bin\Debug\net8.0\AsyncApp2.deps.json
+D:\TAP\csharp\AsyncApp2\AsyncApp2\bin\Debug\net8.0\AsyncApp2.runtimeconfig.json
+D:\TAP\csharp\AsyncApp2\AsyncApp2\bin\Debug\net8.0\AsyncApp2.dll
+D:\TAP\csharp\AsyncApp2\AsyncApp2\bin\Debug\net8.0\AsyncApp2.pdb
+D:\TAP\csharp\AsyncApp2\AsyncApp2\obj\Debug\net8.0\AsyncApp2.GeneratedMSBuildEditorConfig.editorconfig
+D:\TAP\csharp\AsyncApp2\AsyncApp2\obj\Debug\net8.0\AsyncApp2.AssemblyInfoInputs.cache
+D:\TAP\csharp\AsyncApp2\AsyncApp2\obj\Debug\net8.0\AsyncApp2.AssemblyInfo.cs
+D:\TAP\csharp\AsyncApp2\AsyncApp2\obj\Debug\net8.0\AsyncApp2.csproj.CoreCompileInputs.cache
+D:\TAP\csharp\AsyncApp2\AsyncApp2\obj\Debug\net8.0\AsyncApp2.sourcelink.json
+D:\TAP\csharp\AsyncApp2\AsyncApp2\obj\Debug\net8.0\AsyncApp2.dll
+D:\TAP\csharp\AsyncApp2\AsyncApp2\obj\Debug\net8.0\refint\AsyncApp2.dll
+D:\TAP\csharp\AsyncApp2\AsyncApp2\obj\Debug\net8.0\AsyncApp2.pdb
+D:\TAP\csharp\AsyncApp2\AsyncApp2\obj\Debug\net8.0\AsyncApp2.genruntimeconfig.cache
+D:\TAP\csharp\AsyncApp2\AsyncApp2\obj\Debug\net8.0\ref\AsyncApp2.dll
