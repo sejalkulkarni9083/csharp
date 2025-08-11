@@ -1,0 +1,5 @@
+D:\TAP\csharp\AsyncApp\AsyncApp\obj\Debug\net8.0\AsyncApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\TAP\csharp\AsyncApp\AsyncApp\obj\Debug\net8.0\AsyncApp.AssemblyInfoInputs.cache
+D:\TAP\csharp\AsyncApp\AsyncApp\obj\Debug\net8.0\AsyncApp.AssemblyInfo.cs
+D:\TAP\csharp\AsyncApp\AsyncApp\obj\Debug\net8.0\AsyncApp.csproj.CoreCompileInputs.cache
+D:\TAP\csharp\AsyncApp\AsyncApp\obj\Debug\net8.0\AsyncApp.sourcelink.json
