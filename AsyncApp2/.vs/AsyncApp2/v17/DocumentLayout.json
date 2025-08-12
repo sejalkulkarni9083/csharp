@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\TAP\\csharp\\AsyncApp2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B9288452-4748-4803-AF74-0E9B13B533E6}|AsyncAwaitApp\\AsyncAwaitApp.csproj|d:\\tap\\csharp\\asyncapp2\\asyncawaitapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9288452-4748-4803-AF74-0E9B13B533E6}|AsyncAwaitApp\\AsyncAwaitApp.csproj|solutionrelative:asyncawaitapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B9288452-4748-4803-AF74-0E9B13B533E6}|AsyncAwaitApp\\AsyncAwaitApp.csproj|d:\\tap\\csharp\\asyncapp2\\asyncawaitapp\\helper\\taxdeductionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B9288452-4748-4803-AF74-0E9B13B533E6}|AsyncAwaitApp\\AsyncAwaitApp.csproj|solutionrelative:asyncawaitapp\\helper\\taxdeductionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9288452-4748-4803-AF74-0E9B13B533E6}|AsyncAwaitApp\\AsyncAwaitApp.csproj|d:\\tap\\csharp\\asyncapp2\\asyncawaitapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9288452-4748-4803-AF74-0E9B13B533E6}|AsyncAwaitApp\\AsyncAwaitApp.csproj|solutionrelative:asyncawaitapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B9288452-4748-4803-AF74-0E9B13B533E6}|AsyncAwaitApp\\AsyncAwaitApp.csproj|d:\\tap\\csharp\\asyncapp2\\asyncawaitapp\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,17 +30,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "TaxDeductionManager.cs",
               "DocumentMoniker": "D:\\TAP\\csharp\\AsyncApp2\\AsyncAwaitApp\\Helper\\TaxDeductionManager.cs",
               "RelativeDocumentMoniker": "AsyncAwaitApp\\Helper\\TaxDeductionManager.cs",
               "ToolTip": "D:\\TAP\\csharp\\AsyncApp2\\AsyncAwaitApp\\Helper\\TaxDeductionManager.cs",
               "RelativeToolTip": "AsyncAwaitApp\\Helper\\TaxDeductionManager.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAwwFMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-12T08:06:07.898Z",
               "EditorCaption": ""
@@ -55,18 +59,17 @@
               "RelativeToolTip": "AsyncAwaitApp\\Entities\\Product.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-12T08:05:07.603Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-12T08:05:07.603Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\TAP\\csharp\\AsyncApp2\\AsyncAwaitApp\\Program.cs",
               "RelativeDocumentMoniker": "AsyncAwaitApp\\Program.cs",
               "ToolTip": "D:\\TAP\\csharp\\AsyncApp2\\AsyncAwaitApp\\Program.cs",
               "RelativeToolTip": "AsyncAwaitApp\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-12T08:00:59.29Z",
               "EditorCaption": ""
@@ -94,10 +97,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-11T17:14:46.726Z"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }

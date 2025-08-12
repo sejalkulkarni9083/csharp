@@ -1,0 +1,15 @@
+D:\TAP\csharp\AsyncApp2\AsyncAwaitApp\obj\Debug\net8.0\AsyncAwaitApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\TAP\csharp\AsyncApp2\AsyncAwaitApp\obj\Debug\net8.0\AsyncAwaitApp.AssemblyInfoInputs.cache
+D:\TAP\csharp\AsyncApp2\AsyncAwaitApp\obj\Debug\net8.0\AsyncAwaitApp.AssemblyInfo.cs
+D:\TAP\csharp\AsyncApp2\AsyncAwaitApp\obj\Debug\net8.0\AsyncAwaitApp.csproj.CoreCompileInputs.cache
+D:\TAP\csharp\AsyncApp2\AsyncAwaitApp\obj\Debug\net8.0\AsyncAwaitApp.sourcelink.json
+D:\TAP\csharp\AsyncApp2\AsyncAwaitApp\bin\Debug\net8.0\AsyncAwaitApp.exe
+D:\TAP\csharp\AsyncApp2\AsyncAwaitApp\bin\Debug\net8.0\AsyncAwaitApp.deps.json
+D:\TAP\csharp\AsyncApp2\AsyncAwaitApp\bin\Debug\net8.0\AsyncAwaitApp.runtimeconfig.json
+D:\TAP\csharp\AsyncApp2\AsyncAwaitApp\bin\Debug\net8.0\AsyncAwaitApp.dll
+D:\TAP\csharp\AsyncApp2\AsyncAwaitApp\bin\Debug\net8.0\AsyncAwaitApp.pdb
+D:\TAP\csharp\AsyncApp2\AsyncAwaitApp\obj\Debug\net8.0\AsyncAwaitApp.dll
+D:\TAP\csharp\AsyncApp2\AsyncAwaitApp\obj\Debug\net8.0\refint\AsyncAwaitApp.dll
+D:\TAP\csharp\AsyncApp2\AsyncAwaitApp\obj\Debug\net8.0\AsyncAwaitApp.pdb
+D:\TAP\csharp\AsyncApp2\AsyncAwaitApp\obj\Debug\net8.0\AsyncAwaitApp.genruntimeconfig.cache
+D:\TAP\csharp\AsyncApp2\AsyncAwaitApp\obj\Debug\net8.0\ref\AsyncAwaitApp.dll
