@@ -27,7 +27,7 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AsyncApp",
+              "Title": "AsyncApp.csproj",
               "DocumentMoniker": "D:\\TAP\\csharp\\AsyncApp\\AsyncApp\\AsyncApp.csproj",
               "RelativeDocumentMoniker": "AsyncApp\\AsyncApp.csproj",
               "ToolTip": "D:\\TAP\\csharp\\AsyncApp\\AsyncApp\\AsyncApp.csproj",
@@ -47,8 +47,7 @@
               "RelativeToolTip": "AsyncApp\\Helper\\TaxManager.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAmwCwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-11T17:01:52.594Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-11T17:01:52.594Z"
             },
             {
               "$type": "Document",
@@ -60,8 +59,7 @@
               "RelativeToolTip": "AsyncApp\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-11T17:01:08.517Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-11T17:01:08.517Z"
             },
             {
               "$type": "Bookmark",

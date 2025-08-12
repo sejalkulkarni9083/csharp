@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "D:\\TAP\\csharp\\AsyncApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B1461499-1E4B-46D2-9D5A-1115EA204E40}|AsyncApp\\AsyncApp.csproj|d:\\tap\\csharp\\asyncapp\\asyncapp\\asyncapp.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{B1461499-1E4B-46D2-9D5A-1115EA204E40}|AsyncApp\\AsyncApp.csproj|solutionrelative:asyncapp\\asyncapp.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B1461499-1E4B-46D2-9D5A-1115EA204E40}|AsyncApp\\AsyncApp.csproj|d:\\tap\\csharp\\asyncapp\\asyncapp\\asyncapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{B1461499-1E4B-46D2-9D5A-1115EA204E40}|AsyncApp\\AsyncApp.csproj|solutionrelative:asyncapp\\asyncapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
@@ -26,11 +22,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "AsyncApp",
               "DocumentMoniker": "D:\\TAP\\csharp\\AsyncApp\\AsyncApp\\AsyncApp.csproj",
               "RelativeDocumentMoniker": "AsyncApp\\AsyncApp.csproj",
@@ -43,19 +39,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AsyncApp",
-              "DocumentMoniker": "D:\\TAP\\csharp\\AsyncApp\\AsyncApp\\AsyncApp.csproj",
-              "RelativeDocumentMoniker": "AsyncApp\\AsyncApp.csproj",
-              "ToolTip": "D:\\TAP\\csharp\\AsyncApp\\AsyncApp\\AsyncApp.csproj",
-              "RelativeToolTip": "AsyncApp\\AsyncApp.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-08-11T17:05:59.578Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "TaxManager.cs",
               "DocumentMoniker": "D:\\TAP\\csharp\\AsyncApp\\AsyncApp\\Helper\\TaxManager.cs",
               "RelativeDocumentMoniker": "AsyncApp\\Helper\\TaxManager.cs",
@@ -68,7 +52,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\TAP\\csharp\\AsyncApp\\AsyncApp\\Program.cs",
               "RelativeDocumentMoniker": "AsyncApp\\Program.cs",
