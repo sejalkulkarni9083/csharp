@@ -1,0 +1,5 @@
+d:\TAP\csharp\Practicecodes\obj\Debug\net9.0\Practicecodes.GeneratedMSBuildEditorConfig.editorconfig
+d:\TAP\csharp\Practicecodes\obj\Debug\net9.0\Practicecodes.AssemblyInfoInputs.cache
+d:\TAP\csharp\Practicecodes\obj\Debug\net9.0\Practicecodes.AssemblyInfo.cs
+d:\TAP\csharp\Practicecodes\obj\Debug\net9.0\Practicecodes.csproj.CoreCompileInputs.cache
+d:\TAP\csharp\Practicecodes\obj\Debug\net9.0\Practicecodes.sourcelink.json
