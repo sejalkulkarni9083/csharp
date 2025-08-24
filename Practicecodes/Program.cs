@@ -46,6 +46,7 @@ class Program
             }
 
             // Methods
+            // Method to display all books
 
             void DisplayBooks()
             {
@@ -56,6 +57,8 @@ class Program
                 }
                 Console.WriteLine("\n=============================================\n");
             }
+
+            // Method to add a new book
 
             void AddBook()
             {
