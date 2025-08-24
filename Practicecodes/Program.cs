@@ -5,6 +5,7 @@ using System.Collections.Generic;
 
 class Program
 {
+    // Main Method
     static void Main()
     {
         List<Book> books = new List<Book>();
@@ -22,10 +23,10 @@ class Program
             string input = Console.ReadLine();
             int choice;
             if (!int.TryParse(input, out choice))
-{
-            Console.WriteLine("\nInvalid input. Please enter a number.");
-            continue;
-}
+            {
+                Console.WriteLine("\nInvalid input. Please enter a number.");
+                continue;
+            }
             switch (choice)
             {
                 case 1:
