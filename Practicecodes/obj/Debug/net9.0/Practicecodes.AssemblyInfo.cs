@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Practicecodes")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a24f36925e0d638eb336baa3b51256bea1538c55")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+af68250eaa243f72b6862f9ea4f0f388d6e79bda")]
 [assembly: System.Reflection.AssemblyProductAttribute("Practicecodes")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Practicecodes")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

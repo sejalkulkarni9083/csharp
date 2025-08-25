@@ -76,6 +76,9 @@ class Program
                 books.Add(new Book(name, description, author, price, qtyOnHand));
             }
 
+
+            // Method to remove a book
+
             void RemoveBook()
             {
                 DisplayBooks();
