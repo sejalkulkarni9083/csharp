@@ -5,6 +5,7 @@ var builder = WebApplication.CreateBuilder(args);
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
+//
 
 var summaries = new[]
 {
@@ -17,7 +18,7 @@ app.MapGet("/weatherforecast", () =>
         new WeatherForecast
         (
             DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
-            Random.Shared.Next(-20, 55),
+            Random.Shared.Next(-20, 55),        
             summaries[Random.Shared.Next(summaries.Length)]
         ))
         .ToArray();
@@ -26,6 +27,7 @@ app.MapGet("/weatherforecast", () =>
 
 app.Run();
 
+// Define a record to hold weather forecast data
 internal record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
 {
     public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
