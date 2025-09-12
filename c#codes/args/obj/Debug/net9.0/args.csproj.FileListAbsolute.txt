@@ -1,0 +1,15 @@
+D:\TAP\csharp\c#codes\args\bin\Debug\net9.0\args.exe
+D:\TAP\csharp\c#codes\args\bin\Debug\net9.0\args.deps.json
+D:\TAP\csharp\c#codes\args\bin\Debug\net9.0\args.runtimeconfig.json
+D:\TAP\csharp\c#codes\args\bin\Debug\net9.0\args.dll
+D:\TAP\csharp\c#codes\args\bin\Debug\net9.0\args.pdb
+D:\TAP\csharp\c#codes\args\obj\Debug\net9.0\args.GeneratedMSBuildEditorConfig.editorconfig
+D:\TAP\csharp\c#codes\args\obj\Debug\net9.0\args.AssemblyInfoInputs.cache
+D:\TAP\csharp\c#codes\args\obj\Debug\net9.0\args.AssemblyInfo.cs
+D:\TAP\csharp\c#codes\args\obj\Debug\net9.0\args.csproj.CoreCompileInputs.cache
+D:\TAP\csharp\c#codes\args\obj\Debug\net9.0\args.sourcelink.json
+D:\TAP\csharp\c#codes\args\obj\Debug\net9.0\args.dll
+D:\TAP\csharp\c#codes\args\obj\Debug\net9.0\refint\args.dll
+D:\TAP\csharp\c#codes\args\obj\Debug\net9.0\args.pdb
+D:\TAP\csharp\c#codes\args\obj\Debug\net9.0\args.genruntimeconfig.cache
+D:\TAP\csharp\c#codes\args\obj\Debug\net9.0\ref\args.dll
