@@ -1,13 +1,18 @@
 ﻿using System;
 
-public class Conversion
+class TypeCastingExample
 {
-    int x = 543454;
-    long y = x;          //implicit conversion 
-    short z = (short)x;     //explicit conversion                   
-    public static void Main(string[] args)
+    static void Main()
     {
-        Console.WrirteLlin(y);
-        Console.WrirteLlin(z);
+        int x = 543454;
+
+        long y = x;
+
+       
+        short z = (short)x;
+
+        Console.WriteLine("Original int value: " + x);
+        Console.WriteLine("Converted to long: " + y);
+        Console.WriteLine("Converted to short: " + z);
     }
 }

@@ -1,0 +1,15 @@
+D:\TAP\csharp\c#codes\conversion\obj\Debug\net9.0\conversion.GeneratedMSBuildEditorConfig.editorconfig
+D:\TAP\csharp\c#codes\conversion\obj\Debug\net9.0\conversion.AssemblyInfoInputs.cache
+D:\TAP\csharp\c#codes\conversion\obj\Debug\net9.0\conversion.AssemblyInfo.cs
+D:\TAP\csharp\c#codes\conversion\obj\Debug\net9.0\conversion.csproj.CoreCompileInputs.cache
+D:\TAP\csharp\c#codes\conversion\obj\Debug\net9.0\conversion.sourcelink.json
+D:\TAP\csharp\c#codes\conversion\bin\Debug\net9.0\conversion.exe
+D:\TAP\csharp\c#codes\conversion\bin\Debug\net9.0\conversion.deps.json
+D:\TAP\csharp\c#codes\conversion\bin\Debug\net9.0\conversion.runtimeconfig.json
+D:\TAP\csharp\c#codes\conversion\bin\Debug\net9.0\conversion.dll
+D:\TAP\csharp\c#codes\conversion\bin\Debug\net9.0\conversion.pdb
+D:\TAP\csharp\c#codes\conversion\obj\Debug\net9.0\conversion.dll
+D:\TAP\csharp\c#codes\conversion\obj\Debug\net9.0\refint\conversion.dll
+D:\TAP\csharp\c#codes\conversion\obj\Debug\net9.0\conversion.pdb
+D:\TAP\csharp\c#codes\conversion\obj\Debug\net9.0\conversion.genruntimeconfig.cache
+D:\TAP\csharp\c#codes\conversion\obj\Debug\net9.0\ref\conversion.dll
