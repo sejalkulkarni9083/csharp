@@ -1,0 +1,15 @@
+D:\TAP\csharp\c#codes\paramsKeyword\bin\Debug\net9.0\paramsKeyword.exe
+D:\TAP\csharp\c#codes\paramsKeyword\bin\Debug\net9.0\paramsKeyword.deps.json
+D:\TAP\csharp\c#codes\paramsKeyword\bin\Debug\net9.0\paramsKeyword.runtimeconfig.json
+D:\TAP\csharp\c#codes\paramsKeyword\bin\Debug\net9.0\paramsKeyword.dll
+D:\TAP\csharp\c#codes\paramsKeyword\bin\Debug\net9.0\paramsKeyword.pdb
+D:\TAP\csharp\c#codes\paramsKeyword\obj\Debug\net9.0\paramsKeyword.GeneratedMSBuildEditorConfig.editorconfig
+D:\TAP\csharp\c#codes\paramsKeyword\obj\Debug\net9.0\paramsKeyword.AssemblyInfoInputs.cache
+D:\TAP\csharp\c#codes\paramsKeyword\obj\Debug\net9.0\paramsKeyword.AssemblyInfo.cs
+D:\TAP\csharp\c#codes\paramsKeyword\obj\Debug\net9.0\paramsKeyword.csproj.CoreCompileInputs.cache
+D:\TAP\csharp\c#codes\paramsKeyword\obj\Debug\net9.0\paramsKeyword.sourcelink.json
+D:\TAP\csharp\c#codes\paramsKeyword\obj\Debug\net9.0\paramsKeyword.dll
+D:\TAP\csharp\c#codes\paramsKeyword\obj\Debug\net9.0\refint\paramsKeyword.dll
+D:\TAP\csharp\c#codes\paramsKeyword\obj\Debug\net9.0\paramsKeyword.pdb
+D:\TAP\csharp\c#codes\paramsKeyword\obj\Debug\net9.0\paramsKeyword.genruntimeconfig.cache
+D:\TAP\csharp\c#codes\paramsKeyword\obj\Debug\net9.0\ref\paramsKeyword.dll
