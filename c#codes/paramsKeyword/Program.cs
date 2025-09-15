@@ -2,6 +2,7 @@
 
 class Program
 {
+     //use of params keyword
     static void ViewNames(params string[] names)
     {
         Console.WriteLine("Names: {0}, {1}, {2}", names[0], names[1], names[2]);
