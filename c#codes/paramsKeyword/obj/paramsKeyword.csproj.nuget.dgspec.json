@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\TAP\\csharp\\c#codes\\paramsKeyword\\paramsKeyword.csproj": {}
+    "D:\\TAP\\csharp\\c#codes\\paramskeyword\\paramsKeyword.csproj": {}
   },
   "projects": {
-    "D:\\TAP\\csharp\\c#codes\\paramsKeyword\\paramsKeyword.csproj": {
+    "D:\\TAP\\csharp\\c#codes\\paramskeyword\\paramsKeyword.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\TAP\\csharp\\c#codes\\paramsKeyword\\paramsKeyword.csproj",
+        "projectUniqueName": "D:\\TAP\\csharp\\c#codes\\paramskeyword\\paramsKeyword.csproj",
         "projectName": "paramsKeyword",
-        "projectPath": "D:\\TAP\\csharp\\c#codes\\paramsKeyword\\paramsKeyword.csproj",
+        "projectPath": "D:\\TAP\\csharp\\c#codes\\paramskeyword\\paramsKeyword.csproj",
         "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "D:\\TAP\\csharp\\c#codes\\paramsKeyword\\obj\\",
+        "outputPath": "D:\\TAP\\csharp\\c#codes\\paramskeyword\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
