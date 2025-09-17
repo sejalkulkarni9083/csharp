@@ -1,0 +1,5 @@
+D:\TAP\csharp\c#codes\asyncawait\obj\Debug\net9.0\asyncawait.GeneratedMSBuildEditorConfig.editorconfig
+D:\TAP\csharp\c#codes\asyncawait\obj\Debug\net9.0\asyncawait.AssemblyInfoInputs.cache
+D:\TAP\csharp\c#codes\asyncawait\obj\Debug\net9.0\asyncawait.AssemblyInfo.cs
+D:\TAP\csharp\c#codes\asyncawait\obj\Debug\net9.0\asyncawait.csproj.CoreCompileInputs.cache
+D:\TAP\csharp\c#codes\asyncawait\obj\Debug\net9.0\asyncawait.sourcelink.json
