@@ -3,3 +3,13 @@ D:\TAP\csharp\c#codes\asyncawait\obj\Debug\net9.0\asyncawait.AssemblyInfoInputs.
 D:\TAP\csharp\c#codes\asyncawait\obj\Debug\net9.0\asyncawait.AssemblyInfo.cs
 D:\TAP\csharp\c#codes\asyncawait\obj\Debug\net9.0\asyncawait.csproj.CoreCompileInputs.cache
 D:\TAP\csharp\c#codes\asyncawait\obj\Debug\net9.0\asyncawait.sourcelink.json
+D:\TAP\csharp\c#codes\asyncawait\bin\Debug\net9.0\asyncawait.exe
+D:\TAP\csharp\c#codes\asyncawait\bin\Debug\net9.0\asyncawait.deps.json
+D:\TAP\csharp\c#codes\asyncawait\bin\Debug\net9.0\asyncawait.runtimeconfig.json
+D:\TAP\csharp\c#codes\asyncawait\bin\Debug\net9.0\asyncawait.dll
+D:\TAP\csharp\c#codes\asyncawait\bin\Debug\net9.0\asyncawait.pdb
+D:\TAP\csharp\c#codes\asyncawait\obj\Debug\net9.0\asyncawait.dll
+D:\TAP\csharp\c#codes\asyncawait\obj\Debug\net9.0\refint\asyncawait.dll
+D:\TAP\csharp\c#codes\asyncawait\obj\Debug\net9.0\asyncawait.pdb
+D:\TAP\csharp\c#codes\asyncawait\obj\Debug\net9.0\asyncawait.genruntimeconfig.cache
+D:\TAP\csharp\c#codes\asyncawait\obj\Debug\net9.0\ref\asyncawait.dll

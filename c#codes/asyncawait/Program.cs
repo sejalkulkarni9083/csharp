@@ -1,29 +1,30 @@
-﻿using system;
-class asyncawait
+﻿using System;
+using System.Threading.Tasks;
+class AsyncAwaitDemo
 {
-    public async task<string> fetchDataAsync()
+    public static async Task<string> fetchDataAsync()
     {
-        await task.delay(2000);
+        await Task.Delay(2000);
         return "data fetched";
     }
 
-    public async task processDataAsync()
+    public static async Task processDataAsync()
     {
         try
         {
             string Data = await fetchDataAsync();
-            ConsoleWriteLine(Data);
+            Console.WriteLine(Data);
         }
-        catch (exception ex)
+        catch (Exception ex)
         {
-            ConsoleWriteLine("error: " + ex.message);
+            Console.WriteLine("error: " + ex.Message);
         }
     }
 
-    public async task main(string[] args)
+    public async static Task Main(string[] args)
     {
-        ConsoleWriteLine("starting async operations...");
+        Console.WriteLine("starting async operations...");
         await processDataAsync();
-        ConsoleWriteLine("async operations completed.");
+        Console.WriteLine("async operations completed.");
     }
 }
