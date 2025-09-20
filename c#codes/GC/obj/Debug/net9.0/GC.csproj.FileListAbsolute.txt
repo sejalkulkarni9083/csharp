@@ -1,0 +1,15 @@
+D:\TAP\csharp\c#codes\GC\bin\Debug\net9.0\GC.exe
+D:\TAP\csharp\c#codes\GC\bin\Debug\net9.0\GC.deps.json
+D:\TAP\csharp\c#codes\GC\bin\Debug\net9.0\GC.runtimeconfig.json
+D:\TAP\csharp\c#codes\GC\bin\Debug\net9.0\GC.dll
+D:\TAP\csharp\c#codes\GC\bin\Debug\net9.0\GC.pdb
+D:\TAP\csharp\c#codes\GC\obj\Debug\net9.0\GC.GeneratedMSBuildEditorConfig.editorconfig
+D:\TAP\csharp\c#codes\GC\obj\Debug\net9.0\GC.AssemblyInfoInputs.cache
+D:\TAP\csharp\c#codes\GC\obj\Debug\net9.0\GC.AssemblyInfo.cs
+D:\TAP\csharp\c#codes\GC\obj\Debug\net9.0\GC.csproj.CoreCompileInputs.cache
+D:\TAP\csharp\c#codes\GC\obj\Debug\net9.0\GC.sourcelink.json
+D:\TAP\csharp\c#codes\GC\obj\Debug\net9.0\GC.dll
+D:\TAP\csharp\c#codes\GC\obj\Debug\net9.0\refint\GC.dll
+D:\TAP\csharp\c#codes\GC\obj\Debug\net9.0\GC.pdb
+D:\TAP\csharp\c#codes\GC\obj\Debug\net9.0\GC.genruntimeconfig.cache
+D:\TAP\csharp\c#codes\GC\obj\Debug\net9.0\ref\GC.dll
