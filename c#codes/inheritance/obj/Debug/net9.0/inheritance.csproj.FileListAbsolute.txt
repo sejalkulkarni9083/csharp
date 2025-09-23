@@ -3,3 +3,13 @@ D:\TAP\csharp\c#codes\inheritance\obj\Debug\net9.0\inheritance.AssemblyInfoInput
 D:\TAP\csharp\c#codes\inheritance\obj\Debug\net9.0\inheritance.AssemblyInfo.cs
 D:\TAP\csharp\c#codes\inheritance\obj\Debug\net9.0\inheritance.csproj.CoreCompileInputs.cache
 D:\TAP\csharp\c#codes\inheritance\obj\Debug\net9.0\inheritance.sourcelink.json
+D:\TAP\csharp\c#codes\inheritance\bin\Debug\net9.0\inheritance.exe
+D:\TAP\csharp\c#codes\inheritance\bin\Debug\net9.0\inheritance.deps.json
+D:\TAP\csharp\c#codes\inheritance\bin\Debug\net9.0\inheritance.runtimeconfig.json
+D:\TAP\csharp\c#codes\inheritance\bin\Debug\net9.0\inheritance.dll
+D:\TAP\csharp\c#codes\inheritance\bin\Debug\net9.0\inheritance.pdb
+D:\TAP\csharp\c#codes\inheritance\obj\Debug\net9.0\inheritance.dll
+D:\TAP\csharp\c#codes\inheritance\obj\Debug\net9.0\refint\inheritance.dll
+D:\TAP\csharp\c#codes\inheritance\obj\Debug\net9.0\inheritance.pdb
+D:\TAP\csharp\c#codes\inheritance\obj\Debug\net9.0\inheritance.genruntimeconfig.cache
+D:\TAP\csharp\c#codes\inheritance\obj\Debug\net9.0\ref\inheritance.dll
