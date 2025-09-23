@@ -1,0 +1,5 @@
+D:\TAP\csharp\c#codes\inheritance\obj\Debug\net9.0\inheritance.GeneratedMSBuildEditorConfig.editorconfig
+D:\TAP\csharp\c#codes\inheritance\obj\Debug\net9.0\inheritance.AssemblyInfoInputs.cache
+D:\TAP\csharp\c#codes\inheritance\obj\Debug\net9.0\inheritance.AssemblyInfo.cs
+D:\TAP\csharp\c#codes\inheritance\obj\Debug\net9.0\inheritance.csproj.CoreCompileInputs.cache
+D:\TAP\csharp\c#codes\inheritance\obj\Debug\net9.0\inheritance.sourcelink.json

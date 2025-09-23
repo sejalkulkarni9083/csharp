@@ -5,6 +5,7 @@ class Employee
     public double basic_sal = 30000;
     public double hra = 10000;
     public double da = 5000;
+    public double incentives = 2000;
     public double CalculateSalary()
     { return basic_sal + hra + da; }
 } 
@@ -13,12 +14,11 @@ class Manager: Employee
 { 
    public double CalculateIncentives () 
     { 
-     //code to calculate incentives 
-     Return incentives; 
+     return incentives; 
    } 
 }
 
-class demo {
+class Demo {
 
 
     static void Main()
