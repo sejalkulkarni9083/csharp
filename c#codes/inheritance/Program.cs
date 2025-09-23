@@ -27,5 +27,7 @@ class Demo {
         Manager mgr = new Manager();
         double Inc = mgr.CalculateIncentives();
         double sal = mgr.CalculateSalary();
+        Console.WriteLine("Salary: " + sal);
+        Console.WriteLine("Incentives: " + Inc);
     }
  }
