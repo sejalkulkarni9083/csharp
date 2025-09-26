@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\TAP\\csharp\\c#codes\\polmmmorphism\\polmmmorphism.csproj",
+      "projectUniqueName": "D:\\TAP\\csharp\\c#codes\\polymorphism\\polmmmorphism.csproj",
       "projectName": "polmmmorphism",
-      "projectPath": "D:\\TAP\\csharp\\c#codes\\polmmmorphism\\polmmmorphism.csproj",
+      "projectPath": "D:\\TAP\\csharp\\c#codes\\polymorphism\\polmmmorphism.csproj",
       "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-      "outputPath": "D:\\TAP\\csharp\\c#codes\\polmmmorphism\\obj\\",
+      "outputPath": "D:\\TAP\\csharp\\c#codes\\polymorphism\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

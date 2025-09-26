@@ -1,0 +1,15 @@
+D:\TAP\csharp\c#codes\polymorphism\bin\Debug\net9.0\polmmmorphism.exe
+D:\TAP\csharp\c#codes\polymorphism\bin\Debug\net9.0\polmmmorphism.deps.json
+D:\TAP\csharp\c#codes\polymorphism\bin\Debug\net9.0\polmmmorphism.runtimeconfig.json
+D:\TAP\csharp\c#codes\polymorphism\bin\Debug\net9.0\polmmmorphism.dll
+D:\TAP\csharp\c#codes\polymorphism\bin\Debug\net9.0\polmmmorphism.pdb
+D:\TAP\csharp\c#codes\polymorphism\obj\Debug\net9.0\polmmmorphism.GeneratedMSBuildEditorConfig.editorconfig
+D:\TAP\csharp\c#codes\polymorphism\obj\Debug\net9.0\polmmmorphism.AssemblyInfoInputs.cache
+D:\TAP\csharp\c#codes\polymorphism\obj\Debug\net9.0\polmmmorphism.AssemblyInfo.cs
+D:\TAP\csharp\c#codes\polymorphism\obj\Debug\net9.0\polmmmorphism.csproj.CoreCompileInputs.cache
+D:\TAP\csharp\c#codes\polymorphism\obj\Debug\net9.0\polmmmorphism.sourcelink.json
+D:\TAP\csharp\c#codes\polymorphism\obj\Debug\net9.0\polmmmorphism.dll
+D:\TAP\csharp\c#codes\polymorphism\obj\Debug\net9.0\refint\polmmmorphism.dll
+D:\TAP\csharp\c#codes\polymorphism\obj\Debug\net9.0\polmmmorphism.pdb
+D:\TAP\csharp\c#codes\polymorphism\obj\Debug\net9.0\polmmmorphism.genruntimeconfig.cache
+D:\TAP\csharp\c#codes\polymorphism\obj\Debug\net9.0\ref\polmmmorphism.dll
