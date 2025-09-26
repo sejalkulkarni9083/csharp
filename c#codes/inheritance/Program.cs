@@ -5,9 +5,11 @@ class Employee
     public double basic_sal = 30000;
     public double hra = 10000;
     public double da = 5000;
-    
+
     public double CalculateSalary()
-    { return basic_sal + hra + da; }
+    {
+        return basic_sal + hra + da;
+    }
 } 
  
 class Manager: Employee 
