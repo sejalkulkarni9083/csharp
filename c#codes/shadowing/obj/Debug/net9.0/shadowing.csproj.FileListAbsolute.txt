@@ -1,0 +1,15 @@
+D:\TAP\csharp\c#codes\shadowing\obj\Debug\net9.0\shadowing.GeneratedMSBuildEditorConfig.editorconfig
+D:\TAP\csharp\c#codes\shadowing\obj\Debug\net9.0\shadowing.AssemblyInfoInputs.cache
+D:\TAP\csharp\c#codes\shadowing\obj\Debug\net9.0\shadowing.AssemblyInfo.cs
+D:\TAP\csharp\c#codes\shadowing\obj\Debug\net9.0\shadowing.csproj.CoreCompileInputs.cache
+D:\TAP\csharp\c#codes\shadowing\obj\Debug\net9.0\shadowing.sourcelink.json
+D:\TAP\csharp\c#codes\shadowing\bin\Debug\net9.0\shadowing.exe
+D:\TAP\csharp\c#codes\shadowing\bin\Debug\net9.0\shadowing.deps.json
+D:\TAP\csharp\c#codes\shadowing\bin\Debug\net9.0\shadowing.runtimeconfig.json
+D:\TAP\csharp\c#codes\shadowing\bin\Debug\net9.0\shadowing.dll
+D:\TAP\csharp\c#codes\shadowing\bin\Debug\net9.0\shadowing.pdb
+D:\TAP\csharp\c#codes\shadowing\obj\Debug\net9.0\shadowing.dll
+D:\TAP\csharp\c#codes\shadowing\obj\Debug\net9.0\refint\shadowing.dll
+D:\TAP\csharp\c#codes\shadowing\obj\Debug\net9.0\shadowing.pdb
+D:\TAP\csharp\c#codes\shadowing\obj\Debug\net9.0\shadowing.genruntimeconfig.cache
+D:\TAP\csharp\c#codes\shadowing\obj\Debug\net9.0\ref\shadowing.dll
