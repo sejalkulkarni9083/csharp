@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("polmmmorphism")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+45c3b930d6a5fb39e5980724ca6b3b1d8ce8aca1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1dc8b15b7fbd0a6faa1159ce41e7df911b872d25")]
 [assembly: System.Reflection.AssemblyProductAttribute("polmmmorphism")]
 [assembly: System.Reflection.AssemblyTitleAttribute("polmmmorphism")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
