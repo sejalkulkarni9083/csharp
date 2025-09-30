@@ -28,3 +28,5 @@ class Program
         Console.WriteLine(salary);
     }
 }
+
+
