@@ -1,0 +1,8 @@
+D:\TAP\csharp\Sessions\AmazonOnline\TesterApp\bin\Debug\TesterApp.exe.config
+D:\TAP\csharp\Sessions\AmazonOnline\TesterApp\bin\Debug\TesterApp.exe
+D:\TAP\csharp\Sessions\AmazonOnline\TesterApp\bin\Debug\TesterApp.pdb
+D:\TAP\csharp\Sessions\AmazonOnline\TesterApp\obj\Debug\TesterApp.csproj.AssemblyReference.cache
+D:\TAP\csharp\Sessions\AmazonOnline\TesterApp\obj\Debug\TesterApp.csproj.CoreCompileInputs.cache
+D:\TAP\csharp\Sessions\AmazonOnline\TesterApp\obj\Debug\TesterApp.exe
+D:\TAP\csharp\Sessions\AmazonOnline\TesterApp\obj\Debug\TesterApp.pdb
+D:\TAP\csharp\Sessions\AmazonOnline\TesterApp\obj\Debug\TesterApp.exe.config
