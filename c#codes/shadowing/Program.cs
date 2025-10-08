@@ -6,7 +6,7 @@ using System;
 class Employee
 {
     public int basic_sal=1000;
-    public virtual double CalculateSalary()
+    public virtual double      CalculateSalary()
     {
         return basic_sal;
     }
