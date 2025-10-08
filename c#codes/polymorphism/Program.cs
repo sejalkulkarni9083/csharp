@@ -1,10 +1,12 @@
 ﻿using System;
 
+// Polymorphism: allows methods to do different things based on the object that it is acting upon.
+
 class Animal
 {
     public virtual void Speak()
     {
-        Console.WriteLine("The animal makes a sound.");
+        Console.WriteLine("The animals makes a sound.");
     }
 }
 
