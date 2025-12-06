@@ -84,7 +84,7 @@ class Program
                 DisplayBooks();
                 Console.WriteLine("\nEnter the index of the book you want to delete: ");
                 int index = int.Parse(Console.ReadLine());
-                books.RemoveAt(index); // Index starts from 0
+                books.RemoveAt(index);
             }
         }
     }
