@@ -77,7 +77,7 @@ class Program
             }
 
 
-            // Method to remove a book
+            // Method to remove book
 
             void RemoveBook()
             {
