@@ -1,6 +1,12 @@
 using system;
 using System.Collections.Generic;
+using System.Collections.Specialized;
+using System.ComponentModel;
 using System.Linq;
+using System.Reflection.Metadata;
+using System.Runtime.CompilerServices;
+using System.Security.Cryptography.X509Certificates;
+using System.Text;
 
 public class SubjectRepository : ISubjectRepository
 {
@@ -11,5 +17,16 @@ public class SubjectRepository : ISubjectRepository
     {
         _configuration = configuration;
         _connectionString = _configuration.GetConnectionString("DefaultConnection");
+    }
+
+
+    public async Task<List<subjectmodel>> GetAllSubjects()
+    {
+        List<subjectmodel> subjects = new List<subjectmodel>();
+
+        StringHandle query = "@ select* from subjects";
+        
+
+        
     }
 }
