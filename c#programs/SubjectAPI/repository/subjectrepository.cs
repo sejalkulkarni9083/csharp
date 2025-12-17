@@ -16,7 +16,7 @@ public class SubjectRepository : ISubjectRepository
     public SubjectRepository(Iconfiguration configuration)
     {
         _configuration = configuration;
-        _connectionString = _configuration.GetConnectionString("DefaultConnection");
+        _connectionString = _configuration.GetconnectionString("DefaultConnection");
     }
 
 
@@ -24,8 +24,17 @@ public class SubjectRepository : ISubjectRepository
     {
         List<subjectmodel> subjects = new List<subjectmodel>();
 
-        StringHandle query = "@ select* from subjects";
+        String query = "@ select* from subjects";
         
+    MySqlConnection connection = new MySqlConnection(connectionstring);
+    MySqlCommand command = new MySqlCommand (query, connection);
+
+        try
+        {
+            await connection.OpenAsync();
+            
+        }
+
 
         
     }
