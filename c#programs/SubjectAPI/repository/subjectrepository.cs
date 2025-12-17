@@ -2,10 +2,12 @@ using system;
 using System.Collections.Generic;
 using System.Collections.Specialized;
 using System.ComponentModel;
+using System.Data.Common;
 using System.Linq;
 using System.Reflection.Metadata;
 using System.Runtime.CompilerServices;
 using System.Security.Cryptography.X509Certificates;
+using System.Security.Principal;
 using System.Text;
 
 public class SubjectRepository : ISubjectRepository
@@ -32,7 +34,15 @@ public class SubjectRepository : ISubjectRepository
         try
         {
             await connection.OpenAsync();
-            
+            MySqlReader reader  = await command.ExecuteReader();
+            while(reader.read())
+            {
+                int id = NTAccount.parse(reader("id").ToString());
+                string title = reader("title").ToString();
+                 
+            }
+
+
         }
 
 
