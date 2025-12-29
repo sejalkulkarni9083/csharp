@@ -41,7 +41,7 @@ namespace UserSessionAPI.Repository.Implementations
             return JsonFileHelper.ReadFromFile<User>(_filePath);
         }
 
-        public User? GetByID(int id)
+        public User? GetById(int id)
         {
 
             var users = JsonFileHelper.ReadFromFile<User>(_filePath);

@@ -6,6 +6,8 @@ namespace UserSessionAPI.services.Interfaces
     {
         User? Register(Register request);
         User? Login(login request);
-         List<User> GetAllUsers();
+        List<User> GetAllUsers();
+
+        User? GetById(int id);
     }
 }

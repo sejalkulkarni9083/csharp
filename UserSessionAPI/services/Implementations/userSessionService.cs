@@ -44,6 +44,11 @@ namespace UserSessionAPI.services.Implementations
             return _userRepository.GetAllUsers();
         }
 
+        public User? GetById(int id)
+        {
+            return _userRepository.GetById(id);
+        }
+  
 
     }
 }
