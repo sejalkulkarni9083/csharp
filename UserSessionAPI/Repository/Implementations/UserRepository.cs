@@ -1,6 +1,7 @@
 using UserSessionAPI.Helpers;
 using UserSessionAPI.Models;
 using UserSessionAPI.Repository.Interfaces;
+using UserSessionAPI.services.Implementations;
 
 namespace UserSessionAPI.Repository.Implementations
 {
@@ -40,6 +41,12 @@ namespace UserSessionAPI.Repository.Implementations
             return JsonFileHelper.ReadFromFile<User>(_filePath);
         }
 
+        public User? GetByID(int id)
+        {
 
+            var users = JsonFileHelper.ReadFromFile<User>(_filePath);
+            return users.FirstOrDefault(u => u.Id == id);
+
+        }
     }
 }

@@ -9,6 +9,8 @@ namespace UserSessionAPI.Repository.Interfaces
 
         List<User> GetAllUsers();
 
+        User? GetByID(int id);
+
 
     }
 }
