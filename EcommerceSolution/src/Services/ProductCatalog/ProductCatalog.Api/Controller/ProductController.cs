@@ -1,21 +1,17 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace ProductCatalog.Api.Controllers
+[ApiController]
+[Route("api/products")]
+public class ProductsController : ControllerBase
 {
-    [ApiController]
-    [Route("api/products")]
-    public class ProductsController : ControllerBase
+    [HttpGet]
+    public IActionResult GetAll()
     {
-        [HttpGet]
-        public IActionResult GetProducts()
+        return Ok(new[]
         {
-            var products = new[]
-            {
-                new { id = 1, name = "Laptop", price = 75000 },
-                new { id = 2, name = "Mobile", price = 25000 }
-            };
-
-            return Ok(products);
-        }
+            new { Id = 1, Name = "Laptop", Price = 75000 },
+            new { Id = 2, Name = "Mobile", Price = 25000 }
+        });
     }
 }
+
