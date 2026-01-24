@@ -1,0 +1,15 @@
+/home/tfl/sejal/csharp/HRapp/bin/Debug/net9.0/HRapp
+/home/tfl/sejal/csharp/HRapp/bin/Debug/net9.0/HRapp.deps.json
+/home/tfl/sejal/csharp/HRapp/bin/Debug/net9.0/HRapp.runtimeconfig.json
+/home/tfl/sejal/csharp/HRapp/bin/Debug/net9.0/HRapp.dll
+/home/tfl/sejal/csharp/HRapp/bin/Debug/net9.0/HRapp.pdb
+/home/tfl/sejal/csharp/HRapp/obj/Debug/net9.0/HRapp.GeneratedMSBuildEditorConfig.editorconfig
+/home/tfl/sejal/csharp/HRapp/obj/Debug/net9.0/HRapp.AssemblyInfoInputs.cache
+/home/tfl/sejal/csharp/HRapp/obj/Debug/net9.0/HRapp.AssemblyInfo.cs
+/home/tfl/sejal/csharp/HRapp/obj/Debug/net9.0/HRapp.csproj.CoreCompileInputs.cache
+/home/tfl/sejal/csharp/HRapp/obj/Debug/net9.0/HRapp.sourcelink.json
+/home/tfl/sejal/csharp/HRapp/obj/Debug/net9.0/HRapp.dll
+/home/tfl/sejal/csharp/HRapp/obj/Debug/net9.0/refint/HRapp.dll
+/home/tfl/sejal/csharp/HRapp/obj/Debug/net9.0/HRapp.pdb
+/home/tfl/sejal/csharp/HRapp/obj/Debug/net9.0/HRapp.genruntimeconfig.cache
+/home/tfl/sejal/csharp/HRapp/obj/Debug/net9.0/ref/HRapp.dll
