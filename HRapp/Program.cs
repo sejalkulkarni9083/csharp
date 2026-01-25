@@ -1,15 +1,45 @@
-﻿using Hr;
-SalesManager salesManager = new SalesManager(   1, "Sanika", "kulkarni", 60000, 7000, 150000, 10000);
+﻿using HR.Interface;
 
-SalesEmployee salesEmployee = new SalesEmployee( 2, "Sejal","kulkarni", 60000, 7000, 150000);
+using HR;
 
-   
+class Program
+{
 
-salesManager.Achieved = 160000;
+    static void Main()
+    {
 
-Console.WriteLine(salesManager.ToString());
-Console.WriteLine(salesEmployee.ToString());
-salesManager.DoWork();
-salesEmployee.DoWork();
-double totalPay = salesManager.ComputePay();
-Console.WriteLine($"Total Pay: {totalPay}");
+
+
+        SalesManager manager = new SalesManager(
+            101,                // empId
+            "John Doe",         // name
+            "Sales",            // dept
+            50000,              // basic
+            10000,              // da
+            8000,               // hra
+            7000                // ta
+        );
+
+        IAppraisable appraisable = manager;
+        appraisable.ConductAppraisal();
+
+        IBonusEligible bonusEligible = manager;
+        Console.WriteLine("Bonus: " + bonusEligible.CalculateBonus());
+
+        IInterviewPanel panel = manager;
+        panel.TakeInterview();
+
+        ITrainer trainer = manager;
+        trainer.Train();
+
+    }
+}
+
+// salesManager.Achieved = 160000;
+
+// Console.WriteLine(salesManager.ToString());
+// Console.WriteLine(salesEmployee.ToString());
+// salesManager.DoWork();
+// salesEmployee.DoWork();
+// double totalPay = salesManager.ComputePay();
+// Console.WriteLine($"Total Pay: {totalPay}");

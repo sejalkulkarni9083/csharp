@@ -1,8 +1,16 @@
 using System;
+using HR;
+using HR.Interface;
 
-namespace Hr
+public interface IManagerBenefits : IBonusEligible, IAppraisable
 {
-    public class SalesManager : SalesEmployee
+    void ApproveLeave();
+}
+    public class SalesManager : SalesEmployee, 
+                            IManagerBenefits,
+                            IInterviewPanel,
+                            ITrainer
+
     {
         public double Bonus { get; set; }
 
@@ -35,5 +43,29 @@ namespace Hr
             return $"SalesManager Bonus: {Bonus}, " +
                    base.ToString();
         }
+
+        public double CalculateBonus()
+    {
+        return Bonus;
     }
-}
+
+    public void ConductAppraisal()
+    {
+        Console.WriteLine("Manager appraisal completed.");
+    }
+
+    public void ApproveLeave()
+    {
+        Console.WriteLine("Leave approved by Sales Manager.");
+    }
+
+    public void TakeInterview()
+    {
+        Console.WriteLine("Sales Manager conducting interview.");
+    }
+
+    public void Train()
+    {
+        Console.WriteLine("Sales Manager training sales team.");
+    }
+    }

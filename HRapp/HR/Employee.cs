@@ -1,21 +1,22 @@
 using System;
 
 
-
-namespace Hr
+using HR.Interface;
+namespace HR
 {
-    
+
+
     public abstract class Employee
     {
-        
+
         public int EmpId { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
-        
-        public double BasicSalary { get; set; }
-        public double Hra{get; set; }
 
-        public Employee( int empId, string firstName, string lastName, double basicSalary)
+        public double BasicSalary { get; set; }
+        public double Hra { get; set; }
+
+        public Employee(int empId, string firstName, string lastName, double basicSalary)
         {
             EmpId = empId;
             FirstName = firstName;
@@ -23,16 +24,16 @@ namespace Hr
             BasicSalary = basicSalary;
         }
 
-        
+
         public abstract void DoWork();
 
-        
+
         public virtual double ComputePay()
         {
             return BasicSalary;
         }
 
-    
+
         public override string ToString()
         {
             return $"Employee Id: {EmpId}, Name: {FirstName} {LastName}";
