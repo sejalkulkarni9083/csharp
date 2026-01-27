@@ -1,0 +1,15 @@
+/home/tfl/sejal/csharp/command-line-args/bin/Debug/net9.0/command-line-args
+/home/tfl/sejal/csharp/command-line-args/bin/Debug/net9.0/command-line-args.deps.json
+/home/tfl/sejal/csharp/command-line-args/bin/Debug/net9.0/command-line-args.runtimeconfig.json
+/home/tfl/sejal/csharp/command-line-args/bin/Debug/net9.0/command-line-args.dll
+/home/tfl/sejal/csharp/command-line-args/bin/Debug/net9.0/command-line-args.pdb
+/home/tfl/sejal/csharp/command-line-args/obj/Debug/net9.0/command-line-args.GeneratedMSBuildEditorConfig.editorconfig
+/home/tfl/sejal/csharp/command-line-args/obj/Debug/net9.0/command-line-args.AssemblyInfoInputs.cache
+/home/tfl/sejal/csharp/command-line-args/obj/Debug/net9.0/command-line-args.AssemblyInfo.cs
+/home/tfl/sejal/csharp/command-line-args/obj/Debug/net9.0/command-line-args.csproj.CoreCompileInputs.cache
+/home/tfl/sejal/csharp/command-line-args/obj/Debug/net9.0/command-line-args.sourcelink.json
+/home/tfl/sejal/csharp/command-line-args/obj/Debug/net9.0/command-line-args.dll
+/home/tfl/sejal/csharp/command-line-args/obj/Debug/net9.0/refint/command-line-args.dll
+/home/tfl/sejal/csharp/command-line-args/obj/Debug/net9.0/command-line-args.pdb
+/home/tfl/sejal/csharp/command-line-args/obj/Debug/net9.0/command-line-args.genruntimeconfig.cache
+/home/tfl/sejal/csharp/command-line-args/obj/Debug/net9.0/ref/command-line-args.dll
