@@ -11,13 +11,13 @@ class Program
 
 
         SalesManager manager = new SalesManager(
-            101,                // empId
-            "John Doe",         // name
-            "Sales",            // dept
-            50000,              // basic
-            10000,              // da
-            8000,               // hra
-            7000                // ta
+            101,              
+            "John Doe",         
+            "Sales",            
+            50000,             
+            10000,             
+            8000,               
+            7000               
         );
 
         IAppraisable appraisable = manager;
