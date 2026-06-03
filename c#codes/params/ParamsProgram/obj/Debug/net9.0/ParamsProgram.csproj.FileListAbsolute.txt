@@ -1,0 +1,15 @@
+/home/tfl/sejal/csharp/c#codes/params/ParamsProgram/bin/Debug/net9.0/ParamsProgram
+/home/tfl/sejal/csharp/c#codes/params/ParamsProgram/bin/Debug/net9.0/ParamsProgram.deps.json
+/home/tfl/sejal/csharp/c#codes/params/ParamsProgram/bin/Debug/net9.0/ParamsProgram.runtimeconfig.json
+/home/tfl/sejal/csharp/c#codes/params/ParamsProgram/bin/Debug/net9.0/ParamsProgram.dll
+/home/tfl/sejal/csharp/c#codes/params/ParamsProgram/bin/Debug/net9.0/ParamsProgram.pdb
+/home/tfl/sejal/csharp/c#codes/params/ParamsProgram/obj/Debug/net9.0/ParamsProgram.GeneratedMSBuildEditorConfig.editorconfig
+/home/tfl/sejal/csharp/c#codes/params/ParamsProgram/obj/Debug/net9.0/ParamsProgram.AssemblyInfoInputs.cache
+/home/tfl/sejal/csharp/c#codes/params/ParamsProgram/obj/Debug/net9.0/ParamsProgram.AssemblyInfo.cs
+/home/tfl/sejal/csharp/c#codes/params/ParamsProgram/obj/Debug/net9.0/ParamsProgram.csproj.CoreCompileInputs.cache
+/home/tfl/sejal/csharp/c#codes/params/ParamsProgram/obj/Debug/net9.0/ParamsProgram.sourcelink.json
+/home/tfl/sejal/csharp/c#codes/params/ParamsProgram/obj/Debug/net9.0/ParamsProgram.dll
+/home/tfl/sejal/csharp/c#codes/params/ParamsProgram/obj/Debug/net9.0/refint/ParamsProgram.dll
+/home/tfl/sejal/csharp/c#codes/params/ParamsProgram/obj/Debug/net9.0/ParamsProgram.pdb
+/home/tfl/sejal/csharp/c#codes/params/ParamsProgram/obj/Debug/net9.0/ParamsProgram.genruntimeconfig.cache
+/home/tfl/sejal/csharp/c#codes/params/ParamsProgram/obj/Debug/net9.0/ref/ParamsProgram.dll

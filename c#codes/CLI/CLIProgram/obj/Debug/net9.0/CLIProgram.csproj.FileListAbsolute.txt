@@ -1,0 +1,15 @@
+/home/tfl/sejal/csharp/c#codes/CLI/CLIProgram/bin/Debug/net9.0/CLIProgram
+/home/tfl/sejal/csharp/c#codes/CLI/CLIProgram/bin/Debug/net9.0/CLIProgram.deps.json
+/home/tfl/sejal/csharp/c#codes/CLI/CLIProgram/bin/Debug/net9.0/CLIProgram.runtimeconfig.json
+/home/tfl/sejal/csharp/c#codes/CLI/CLIProgram/bin/Debug/net9.0/CLIProgram.dll
+/home/tfl/sejal/csharp/c#codes/CLI/CLIProgram/bin/Debug/net9.0/CLIProgram.pdb
+/home/tfl/sejal/csharp/c#codes/CLI/CLIProgram/obj/Debug/net9.0/CLIProgram.GeneratedMSBuildEditorConfig.editorconfig
+/home/tfl/sejal/csharp/c#codes/CLI/CLIProgram/obj/Debug/net9.0/CLIProgram.AssemblyInfoInputs.cache
+/home/tfl/sejal/csharp/c#codes/CLI/CLIProgram/obj/Debug/net9.0/CLIProgram.AssemblyInfo.cs
+/home/tfl/sejal/csharp/c#codes/CLI/CLIProgram/obj/Debug/net9.0/CLIProgram.csproj.CoreCompileInputs.cache
+/home/tfl/sejal/csharp/c#codes/CLI/CLIProgram/obj/Debug/net9.0/CLIProgram.sourcelink.json
+/home/tfl/sejal/csharp/c#codes/CLI/CLIProgram/obj/Debug/net9.0/CLIProgram.dll
+/home/tfl/sejal/csharp/c#codes/CLI/CLIProgram/obj/Debug/net9.0/refint/CLIProgram.dll
+/home/tfl/sejal/csharp/c#codes/CLI/CLIProgram/obj/Debug/net9.0/CLIProgram.pdb
+/home/tfl/sejal/csharp/c#codes/CLI/CLIProgram/obj/Debug/net9.0/CLIProgram.genruntimeconfig.cache
+/home/tfl/sejal/csharp/c#codes/CLI/CLIProgram/obj/Debug/net9.0/ref/CLIProgram.dll

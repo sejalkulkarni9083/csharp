@@ -8,31 +8,24 @@
     "net9.0": []
   },
   "packageFolders": {
-    "C:\\Users\\ADMIN\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "/home/tfl/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\TAP\\csharp\\c#codes\\asyncawait\\asyncawait.csproj",
+      "projectUniqueName": "/home/tfl/sejal/csharp/c#codes/asyncawait/asyncawait.csproj",
       "projectName": "asyncawait",
-      "projectPath": "D:\\TAP\\csharp\\c#codes\\asyncawait\\asyncawait.csproj",
-      "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-      "outputPath": "D:\\TAP\\csharp\\c#codes\\asyncawait\\obj\\",
+      "projectPath": "/home/tfl/sejal/csharp/c#codes/asyncawait/asyncawait.csproj",
+      "packagesPath": "/home/tfl/.nuget/packages/",
+      "outputPath": "/home/tfl/sejal/csharp/c#codes/asyncawait/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/home/tfl/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -72,7 +65,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.301/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
