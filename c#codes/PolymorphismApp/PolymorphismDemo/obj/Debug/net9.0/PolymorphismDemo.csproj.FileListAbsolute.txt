@@ -1,0 +1,15 @@
+/home/tfl/sejal/csharp/c#codes/PolymorphismApp/PolymorphismDemo/bin/Debug/net9.0/PolymorphismDemo
+/home/tfl/sejal/csharp/c#codes/PolymorphismApp/PolymorphismDemo/bin/Debug/net9.0/PolymorphismDemo.deps.json
+/home/tfl/sejal/csharp/c#codes/PolymorphismApp/PolymorphismDemo/bin/Debug/net9.0/PolymorphismDemo.runtimeconfig.json
+/home/tfl/sejal/csharp/c#codes/PolymorphismApp/PolymorphismDemo/bin/Debug/net9.0/PolymorphismDemo.dll
+/home/tfl/sejal/csharp/c#codes/PolymorphismApp/PolymorphismDemo/bin/Debug/net9.0/PolymorphismDemo.pdb
+/home/tfl/sejal/csharp/c#codes/PolymorphismApp/PolymorphismDemo/obj/Debug/net9.0/PolymorphismDemo.GeneratedMSBuildEditorConfig.editorconfig
+/home/tfl/sejal/csharp/c#codes/PolymorphismApp/PolymorphismDemo/obj/Debug/net9.0/PolymorphismDemo.AssemblyInfoInputs.cache
+/home/tfl/sejal/csharp/c#codes/PolymorphismApp/PolymorphismDemo/obj/Debug/net9.0/PolymorphismDemo.AssemblyInfo.cs
+/home/tfl/sejal/csharp/c#codes/PolymorphismApp/PolymorphismDemo/obj/Debug/net9.0/PolymorphismDemo.csproj.CoreCompileInputs.cache
+/home/tfl/sejal/csharp/c#codes/PolymorphismApp/PolymorphismDemo/obj/Debug/net9.0/PolymorphismDemo.sourcelink.json
+/home/tfl/sejal/csharp/c#codes/PolymorphismApp/PolymorphismDemo/obj/Debug/net9.0/PolymorphismDemo.dll
+/home/tfl/sejal/csharp/c#codes/PolymorphismApp/PolymorphismDemo/obj/Debug/net9.0/refint/PolymorphismDemo.dll
+/home/tfl/sejal/csharp/c#codes/PolymorphismApp/PolymorphismDemo/obj/Debug/net9.0/PolymorphismDemo.pdb
+/home/tfl/sejal/csharp/c#codes/PolymorphismApp/PolymorphismDemo/obj/Debug/net9.0/PolymorphismDemo.genruntimeconfig.cache
+/home/tfl/sejal/csharp/c#codes/PolymorphismApp/PolymorphismDemo/obj/Debug/net9.0/ref/PolymorphismDemo.dll

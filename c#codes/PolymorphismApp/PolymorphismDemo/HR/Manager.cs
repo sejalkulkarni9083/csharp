@@ -13,9 +13,14 @@ public class Manager : Employee
     {
         this.insentive = insentive;
     }
-    
+
     public override double calculateSalary()
     {
         return base.calculateSalary() + insentive;
+    }
+    
+    public override string ToString()
+    {
+        return base.ToString() + $"Insentive:{insentive}";
     }
 }
