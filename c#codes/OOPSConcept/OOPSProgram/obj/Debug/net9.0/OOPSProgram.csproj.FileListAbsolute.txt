@@ -1,0 +1,15 @@
+/home/tfl/sejal/csharp/c#codes/OOPSConcept/OOPSProgram/bin/Debug/net9.0/OOPSProgram
+/home/tfl/sejal/csharp/c#codes/OOPSConcept/OOPSProgram/bin/Debug/net9.0/OOPSProgram.deps.json
+/home/tfl/sejal/csharp/c#codes/OOPSConcept/OOPSProgram/bin/Debug/net9.0/OOPSProgram.runtimeconfig.json
+/home/tfl/sejal/csharp/c#codes/OOPSConcept/OOPSProgram/bin/Debug/net9.0/OOPSProgram.dll
+/home/tfl/sejal/csharp/c#codes/OOPSConcept/OOPSProgram/bin/Debug/net9.0/OOPSProgram.pdb
+/home/tfl/sejal/csharp/c#codes/OOPSConcept/OOPSProgram/obj/Debug/net9.0/OOPSProgram.GeneratedMSBuildEditorConfig.editorconfig
+/home/tfl/sejal/csharp/c#codes/OOPSConcept/OOPSProgram/obj/Debug/net9.0/OOPSProgram.AssemblyInfoInputs.cache
+/home/tfl/sejal/csharp/c#codes/OOPSConcept/OOPSProgram/obj/Debug/net9.0/OOPSProgram.AssemblyInfo.cs
+/home/tfl/sejal/csharp/c#codes/OOPSConcept/OOPSProgram/obj/Debug/net9.0/OOPSProgram.csproj.CoreCompileInputs.cache
+/home/tfl/sejal/csharp/c#codes/OOPSConcept/OOPSProgram/obj/Debug/net9.0/OOPSProgram.sourcelink.json
+/home/tfl/sejal/csharp/c#codes/OOPSConcept/OOPSProgram/obj/Debug/net9.0/OOPSProgram.dll
+/home/tfl/sejal/csharp/c#codes/OOPSConcept/OOPSProgram/obj/Debug/net9.0/refint/OOPSProgram.dll
+/home/tfl/sejal/csharp/c#codes/OOPSConcept/OOPSProgram/obj/Debug/net9.0/OOPSProgram.pdb
+/home/tfl/sejal/csharp/c#codes/OOPSConcept/OOPSProgram/obj/Debug/net9.0/OOPSProgram.genruntimeconfig.cache
+/home/tfl/sejal/csharp/c#codes/OOPSConcept/OOPSProgram/obj/Debug/net9.0/ref/OOPSProgram.dll
