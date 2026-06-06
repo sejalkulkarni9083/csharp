@@ -19,7 +19,13 @@ public class Student : Person
 
     public override void DisplayInfo()
     {
-        Console.WriteLine($"Id : {Id}, Name : {Name}, Courses : { EnrolledCourses} ");
-          }
+        Console.WriteLine($"Id : {Id}, Name : {Name}");
+        Console.WriteLine("Enrolled Courses:");
+
+        foreach(var course in EnrolledCourses)
+        {
+            Console.WriteLine (course.CourseName);
+        }
+    }
 
 }

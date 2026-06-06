@@ -3,7 +3,7 @@ namespace LMSApp.Users;
 public class Instructor : Person
 {
     public List<Course> AssignedCourses { get; set; }
-
+    
     public Instructor(int id, string name)
         : base(id, name)
     {
