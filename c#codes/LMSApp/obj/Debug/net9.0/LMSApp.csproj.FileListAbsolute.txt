@@ -1,0 +1,15 @@
+/home/tfl/sejal/csharp/c#codes/LMSApp/obj/Debug/net9.0/LMSApp.GeneratedMSBuildEditorConfig.editorconfig
+/home/tfl/sejal/csharp/c#codes/LMSApp/obj/Debug/net9.0/LMSApp.AssemblyInfoInputs.cache
+/home/tfl/sejal/csharp/c#codes/LMSApp/obj/Debug/net9.0/LMSApp.AssemblyInfo.cs
+/home/tfl/sejal/csharp/c#codes/LMSApp/obj/Debug/net9.0/LMSApp.csproj.CoreCompileInputs.cache
+/home/tfl/sejal/csharp/c#codes/LMSApp/obj/Debug/net9.0/LMSApp.sourcelink.json
+/home/tfl/sejal/csharp/c#codes/LMSApp/bin/Debug/net9.0/LMSApp
+/home/tfl/sejal/csharp/c#codes/LMSApp/bin/Debug/net9.0/LMSApp.deps.json
+/home/tfl/sejal/csharp/c#codes/LMSApp/bin/Debug/net9.0/LMSApp.runtimeconfig.json
+/home/tfl/sejal/csharp/c#codes/LMSApp/bin/Debug/net9.0/LMSApp.dll
+/home/tfl/sejal/csharp/c#codes/LMSApp/bin/Debug/net9.0/LMSApp.pdb
+/home/tfl/sejal/csharp/c#codes/LMSApp/obj/Debug/net9.0/LMSApp.dll
+/home/tfl/sejal/csharp/c#codes/LMSApp/obj/Debug/net9.0/refint/LMSApp.dll
+/home/tfl/sejal/csharp/c#codes/LMSApp/obj/Debug/net9.0/LMSApp.pdb
+/home/tfl/sejal/csharp/c#codes/LMSApp/obj/Debug/net9.0/LMSApp.genruntimeconfig.cache
+/home/tfl/sejal/csharp/c#codes/LMSApp/obj/Debug/net9.0/ref/LMSApp.dll

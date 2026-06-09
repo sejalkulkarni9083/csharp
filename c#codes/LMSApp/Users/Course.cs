@@ -8,7 +8,7 @@ public class Course
 
     public int Duration { get; set; }
 
-    public string? AssignedInstructor { get; set; }
+    public Instructor Instructor { get; set; }
 
     public Course(int id,string name)
     {
