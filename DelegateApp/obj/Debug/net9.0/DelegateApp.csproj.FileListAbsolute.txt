@@ -1,0 +1,15 @@
+/home/tfl/sejal/csharp/DelegateApp/bin/Debug/net9.0/DelegateApp
+/home/tfl/sejal/csharp/DelegateApp/bin/Debug/net9.0/DelegateApp.deps.json
+/home/tfl/sejal/csharp/DelegateApp/bin/Debug/net9.0/DelegateApp.runtimeconfig.json
+/home/tfl/sejal/csharp/DelegateApp/bin/Debug/net9.0/DelegateApp.dll
+/home/tfl/sejal/csharp/DelegateApp/bin/Debug/net9.0/DelegateApp.pdb
+/home/tfl/sejal/csharp/DelegateApp/obj/Debug/net9.0/DelegateApp.GeneratedMSBuildEditorConfig.editorconfig
+/home/tfl/sejal/csharp/DelegateApp/obj/Debug/net9.0/DelegateApp.AssemblyInfoInputs.cache
+/home/tfl/sejal/csharp/DelegateApp/obj/Debug/net9.0/DelegateApp.AssemblyInfo.cs
+/home/tfl/sejal/csharp/DelegateApp/obj/Debug/net9.0/DelegateApp.csproj.CoreCompileInputs.cache
+/home/tfl/sejal/csharp/DelegateApp/obj/Debug/net9.0/DelegateApp.sourcelink.json
+/home/tfl/sejal/csharp/DelegateApp/obj/Debug/net9.0/DelegateApp.dll
+/home/tfl/sejal/csharp/DelegateApp/obj/Debug/net9.0/refint/DelegateApp.dll
+/home/tfl/sejal/csharp/DelegateApp/obj/Debug/net9.0/DelegateApp.pdb
+/home/tfl/sejal/csharp/DelegateApp/obj/Debug/net9.0/DelegateApp.genruntimeconfig.cache
+/home/tfl/sejal/csharp/DelegateApp/obj/Debug/net9.0/ref/DelegateApp.dll
