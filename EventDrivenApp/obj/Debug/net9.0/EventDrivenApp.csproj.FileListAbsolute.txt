@@ -1,0 +1,15 @@
+/home/tfl/sejal/csharp/EventDrivenApp/obj/Debug/net9.0/EventDrivenApp.GeneratedMSBuildEditorConfig.editorconfig
+/home/tfl/sejal/csharp/EventDrivenApp/obj/Debug/net9.0/EventDrivenApp.AssemblyInfoInputs.cache
+/home/tfl/sejal/csharp/EventDrivenApp/obj/Debug/net9.0/EventDrivenApp.AssemblyInfo.cs
+/home/tfl/sejal/csharp/EventDrivenApp/obj/Debug/net9.0/EventDrivenApp.csproj.CoreCompileInputs.cache
+/home/tfl/sejal/csharp/EventDrivenApp/obj/Debug/net9.0/EventDrivenApp.sourcelink.json
+/home/tfl/sejal/csharp/EventDrivenApp/bin/Debug/net9.0/EventDrivenApp
+/home/tfl/sejal/csharp/EventDrivenApp/bin/Debug/net9.0/EventDrivenApp.deps.json
+/home/tfl/sejal/csharp/EventDrivenApp/bin/Debug/net9.0/EventDrivenApp.runtimeconfig.json
+/home/tfl/sejal/csharp/EventDrivenApp/bin/Debug/net9.0/EventDrivenApp.dll
+/home/tfl/sejal/csharp/EventDrivenApp/bin/Debug/net9.0/EventDrivenApp.pdb
+/home/tfl/sejal/csharp/EventDrivenApp/obj/Debug/net9.0/EventDrivenApp.dll
+/home/tfl/sejal/csharp/EventDrivenApp/obj/Debug/net9.0/refint/EventDrivenApp.dll
+/home/tfl/sejal/csharp/EventDrivenApp/obj/Debug/net9.0/EventDrivenApp.pdb
+/home/tfl/sejal/csharp/EventDrivenApp/obj/Debug/net9.0/EventDrivenApp.genruntimeconfig.cache
+/home/tfl/sejal/csharp/EventDrivenApp/obj/Debug/net9.0/ref/EventDrivenApp.dll
