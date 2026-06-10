@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/tfl/sejal/csharp/LMSApp/LMSApp.csproj": {}
+    "/home/tfl/sejal/csharp/csharp.csproj": {}
   },
   "projects": {
-    "/home/tfl/sejal/csharp/LMSApp/LMSApp.csproj": {
+    "/home/tfl/sejal/csharp/csharp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/tfl/sejal/csharp/LMSApp/LMSApp.csproj",
-        "projectName": "LMSApp",
-        "projectPath": "/home/tfl/sejal/csharp/LMSApp/LMSApp.csproj",
+        "projectUniqueName": "/home/tfl/sejal/csharp/csharp.csproj",
+        "projectName": "csharp",
+        "projectPath": "/home/tfl/sejal/csharp/csharp.csproj",
         "packagesPath": "/home/tfl/.nuget/packages/",
-        "outputPath": "/home/tfl/sejal/csharp/LMSApp/obj/",
+        "outputPath": "/home/tfl/sejal/csharp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/tfl/.nuget/NuGet/NuGet.Config"
