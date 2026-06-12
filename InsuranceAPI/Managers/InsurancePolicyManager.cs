@@ -48,7 +48,7 @@ public class InsurancePolicyManager
 
     public List<Policy> GetAllPolicies()
     {
-        string fileName=@"D:\Ravi\TAP\TAP\TFLdotNET\Solutions\InsuranceRestAPIApp\Data\policies.json";
+        string fileName=@"/home/tfl/Downloads/InsuranceRestAPIApp (2)/InsuranceRestAPIApp/InsuranceRestAPIApp/Data/licies.json";
         string jsonString=File.ReadAllText(fileName);
         var options = new JsonSerializerOptions{ PropertyNameCaseInsensitive = true};
         List<Policy>? policies =JsonSerializer.Deserialize<List<Policy>>(jsonString,options);
@@ -56,12 +56,33 @@ public class InsurancePolicyManager
     }
 
 
-    public bool  SaveAllPolicies(List<Policy> policies)
+    public bool SaveAllPolicies(List<Policy> policies)
+    {
+        bool status = false;
+        string fileName = @"/home/tfl/Downloads/InsuranceRestAPIApp (2)/InsuranceRestAPIApp/InsuranceRestAPIApp/Data/payPremuim.json";
+        var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
+        string jsonString = JsonSerializer.Serialize(policies, options);
+        File.WriteAllText(fileName, jsonString);
+        status = true;
+        return status;
+    }
+
+      public List<Premium> GetAllPremimum()
+    {
+        string fileName=@"/home/tfl/Downloads/InsuranceRestAPIApp (2)/InsuranceRestAPIApp/InsuranceRestAPIApp/Data/payPremuim.json";
+        string jsonString=File.ReadAllText(fileName);
+        var options = new JsonSerializerOptions{ PropertyNameCaseInsensitive = true};
+        List<Premium>? premiums =JsonSerializer.Deserialize<List<Premium>>(jsonString,options);
+        return   premiums;
+    }
+
+
+    public bool  SaveAllPremium(List<Premium> premiums)
     {
         bool status=false;
-        string fileName=@"D:\Ravi\TAP\TAP\TFLdotNET\Solutions\InsuranceRestAPIApp\Data\policies.json";
+        string fileName=@"/home/tfl/Downloads/InsuranceRestAPIApp (2)/InsuranceRestAPIApp/InsuranceRestAPIApp/Data/payPremuim.json";
         var options = new JsonSerializerOptions{ PropertyNameCaseInsensitive = true};
-        string jsonString=JsonSerializer.Serialize(policies,options);
+        string jsonString=JsonSerializer.Serialize(premiums,options);
         File.WriteAllText(fileName, jsonString);
         status=true;
         return status;
