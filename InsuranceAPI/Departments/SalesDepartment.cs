@@ -1,4 +1,4 @@
-namespace Departments;
+namespace InsuranceAPI.Departments;
 public class SalesDepartment
 {
     public void OnPolicyPurchased()

@@ -1,41 +1,121 @@
-var builder = WebApplication.CreateBuilder(args);
+using InsuranceAPI.Managers;
+using InsuranceAPI.Models;
+using InsuranceAPI.Delegate;
+using InsuranceAPI.Services;
+using InsuranceAPI.Departments;
 
-// Add services to the container.
-// Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
+var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddOpenApi();
 
 var app = builder.Build();
-
-// Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
+app.MapGet("/api/policies", () =>
 {
-    app.MapOpenApi();
-}
+  
+  
+        InsurancePolicyManager insruanceManager=new InsurancePolicyManager();
+        AccountsDepartment accounts=new AccountsDepartment();
+        SalesDepartment sales=new SalesDepartment();
+        ClaimDepartment claims=new ClaimDepartment();
+        RenewalDepartment renewals=new RenewalDepartment();
 
-app.UseHttpsRedirection();
+        EmailNotificationService emailSvc=new EmailNotificationService();
+               
+        insruanceManager.policyPurchased+=sales.OnPolicyPurchased;
+        insruanceManager.policyPurchased+=emailSvc.SendMessage;
 
-var summaries = new[]
+        insruanceManager.premiumPaid+=accounts.RecordPayment;
+        insruanceManager.claimRegistered+=claims.OnClaimRegistered;
+        insruanceManager.premiumPaid+=renewals.OnPolicyRenewed;
+
+
+        return insruanceManager.GetAllPolicies();
+});
+app.MapPost("/api/policies/purchase", (Policy policy) =>
 {
-    "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-};
+  
+        InsurancePolicyManager insruanceManager=new InsurancePolicyManager();
+        AccountsDepartment accounts=new AccountsDepartment();
+        SalesDepartment sales=new SalesDepartment();
+        ClaimDepartment claims=new ClaimDepartment();
+        RenewalDepartment renewals=new RenewalDepartment();
 
-app.MapGet("/weatherforecast", () =>
+        EmailNotificationService emailSvc=new EmailNotificationService();
+               
+        insruanceManager.policyPurchased+=sales.OnPolicyPurchased;
+        insruanceManager.policyPurchased+=emailSvc.SendMessage;
+
+        insruanceManager.premiumPaid+=accounts.RecordPayment;
+        insruanceManager.claimRegistered+=claims.OnClaimRegistered;
+        insruanceManager.premiumPaid+=renewals.OnPolicyRenewed;
+
+  
+        insruanceManager.PurchasePolicy(policy);
+  return " Policy Purchased Successfully";
+});
+
+app.MapPost("/api/policies/paypremium", (Premium premium) =>
 {
-    var forecast =  Enumerable.Range(1, 5).Select(index =>
-        new WeatherForecast
-        (
-            DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
-            Random.Shared.Next(-20, 55),
-            summaries[Random.Shared.Next(summaries.Length)]
-        ))
-        .ToArray();
-    return forecast;
-})
-.WithName("GetWeatherForecast");
+  
+        InsurancePolicyManager insruanceManager=new InsurancePolicyManager();
+        AccountsDepartment accounts=new AccountsDepartment();
+        SalesDepartment sales=new SalesDepartment();
+        ClaimDepartment claims=new ClaimDepartment();
+        RenewalDepartment renewals=new RenewalDepartment();
+
+        EmailNotificationService emailSvc=new EmailNotificationService();
+               
+        insruanceManager.policyPurchased+=sales.OnPolicyPurchased;
+        insruanceManager.policyPurchased+=emailSvc.SendMessage;
+
+        insruanceManager.premiumPaid+=accounts.RecordPayment;
+        insruanceManager.claimRegistered+=claims.OnClaimRegistered;
+        insruanceManager.premiumPaid += renewals.OnPolicyRenewed;
+        
+        insruanceManager.PayPremium(premium);
+return " Preimum paid succefully";
+
+  
+});
+app.MapPost("/api/policies/registerclaim", () =>
+{
+  
+        InsurancePolicyManager insruanceManager=new InsurancePolicyManager();
+        AccountsDepartment accounts=new AccountsDepartment();
+        SalesDepartment sales=new SalesDepartment();
+        ClaimDepartment claims=new ClaimDepartment();
+        RenewalDepartment renewals=new RenewalDepartment();
+
+        EmailNotificationService emailSvc=new EmailNotificationService();
+               
+        insruanceManager.policyPurchased+=sales.OnPolicyPurchased;
+        insruanceManager.policyPurchased+=emailSvc.SendMessage;
+
+        insruanceManager.premiumPaid+=accounts.RecordPayment;
+        insruanceManager.claimRegistered+=claims.OnClaimRegistered;
+        insruanceManager.premiumPaid+=renewals.OnPolicyRenewed;
+
+
+});
+app.MapPost("api/policies/renew", () =>
+{
+  
+        InsurancePolicyManager insruanceManager=new InsurancePolicyManager();
+        AccountsDepartment accounts=new AccountsDepartment();
+        SalesDepartment sales=new SalesDepartment();
+        ClaimDepartment claims=new ClaimDepartment();
+        RenewalDepartment renewals=new RenewalDepartment();
+
+        EmailNotificationService emailSvc=new EmailNotificationService();
+               
+        insruanceManager.policyPurchased+=sales.OnPolicyPurchased;
+        insruanceManager.policyPurchased+=emailSvc.SendMessage;
+
+        insruanceManager.premiumPaid+=accounts.RecordPayment;
+        insruanceManager.claimRegistered+=claims.OnClaimRegistered;
+        insruanceManager.premiumPaid+=renewals.OnPolicyRenewed;
+
+
+});
+ 
 
 app.Run();
-
-record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
-{
-    public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
-}

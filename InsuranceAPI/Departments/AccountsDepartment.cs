@@ -1,9 +1,9 @@
-namespace Departments;
+namespace InsuranceAPI.Departments;
 
 public class AccountsDepartment
 {
-    public void OnPremiumPaid()
+    public void RecordPayment()
     {
-        Console.WriteLine("Payment recorded.");
+        Console.WriteLine("Payment recorded successfully.");
     }
 }

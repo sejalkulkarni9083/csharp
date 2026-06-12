@@ -1,5 +1,5 @@
 
-namespace Departments;
+namespace InsuranceAPI.Departments;
 
 public class  RenewalDepartment
 {
