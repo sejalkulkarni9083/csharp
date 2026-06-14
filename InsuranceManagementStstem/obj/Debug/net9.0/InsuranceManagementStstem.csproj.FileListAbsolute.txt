@@ -1,0 +1,15 @@
+/home/tfl/sejal/csharp/InsuranceManagementStstem/obj/Debug/net9.0/InsuranceManagementStstem.GeneratedMSBuildEditorConfig.editorconfig
+/home/tfl/sejal/csharp/InsuranceManagementStstem/obj/Debug/net9.0/InsuranceManagementStstem.AssemblyInfoInputs.cache
+/home/tfl/sejal/csharp/InsuranceManagementStstem/obj/Debug/net9.0/InsuranceManagementStstem.AssemblyInfo.cs
+/home/tfl/sejal/csharp/InsuranceManagementStstem/obj/Debug/net9.0/InsuranceManagementStstem.csproj.CoreCompileInputs.cache
+/home/tfl/sejal/csharp/InsuranceManagementStstem/obj/Debug/net9.0/InsuranceManagementStstem.sourcelink.json
+/home/tfl/sejal/csharp/InsuranceManagementStstem/bin/Debug/net9.0/InsuranceManagementStstem
+/home/tfl/sejal/csharp/InsuranceManagementStstem/bin/Debug/net9.0/InsuranceManagementStstem.deps.json
+/home/tfl/sejal/csharp/InsuranceManagementStstem/bin/Debug/net9.0/InsuranceManagementStstem.runtimeconfig.json
+/home/tfl/sejal/csharp/InsuranceManagementStstem/bin/Debug/net9.0/InsuranceManagementStstem.dll
+/home/tfl/sejal/csharp/InsuranceManagementStstem/bin/Debug/net9.0/InsuranceManagementStstem.pdb
+/home/tfl/sejal/csharp/InsuranceManagementStstem/obj/Debug/net9.0/InsuranceManagementStstem.dll
+/home/tfl/sejal/csharp/InsuranceManagementStstem/obj/Debug/net9.0/refint/InsuranceManagementStstem.dll
+/home/tfl/sejal/csharp/InsuranceManagementStstem/obj/Debug/net9.0/InsuranceManagementStstem.pdb
+/home/tfl/sejal/csharp/InsuranceManagementStstem/obj/Debug/net9.0/InsuranceManagementStstem.genruntimeconfig.cache
+/home/tfl/sejal/csharp/InsuranceManagementStstem/obj/Debug/net9.0/ref/InsuranceManagementStstem.dll
