@@ -20,6 +20,8 @@ class Program
             7000               
         );
 
+
+
         IAppraisable appraisable = manager;
         appraisable.ConductAppraisal();
 
@@ -32,6 +34,7 @@ class Program
         ITrainer trainer = manager;
         trainer.Train();
 
+        
     }
 }
 
