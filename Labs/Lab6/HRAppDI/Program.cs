@@ -1,11 +1,14 @@
 ﻿using HR;
 using HR.Services;
+using HR.Interfaces;
 
 // Create dependency
-IEmployeeService service = new EmployeeService();
+//IEmployeeService service = new EmployeeService();
+IEmployeeService employeeService = new MockEmployeeService();
+IPayrollService payrollService = new PayrollService();
 
 // Inject dependency
-HRProcessor processor = new HRProcessor(service);
+HRProcessor processor = new HRProcessor(employeeService, payrollService);
 
 // Create employees
 Employee emp1 = new SalesEmployee( 101,
@@ -15,8 +18,8 @@ Employee emp1 = new SalesEmployee( 101,
     10000,
     200000);
 Employee emp2 = new SalesManager( 102,
-    "Amit",
-    "Patil",
+    "Sanika",
+    "Kulkarni",
     80000,
     15000,
     500000,
