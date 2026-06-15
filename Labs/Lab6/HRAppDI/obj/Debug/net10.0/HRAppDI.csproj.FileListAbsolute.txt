@@ -1,0 +1,15 @@
+D:\sejalgit\csharp\Labs\Lab6\HRAppDI\obj\Debug\net10.0\HRAppDI.GeneratedMSBuildEditorConfig.editorconfig
+D:\sejalgit\csharp\Labs\Lab6\HRAppDI\obj\Debug\net10.0\HRAppDI.AssemblyInfoInputs.cache
+D:\sejalgit\csharp\Labs\Lab6\HRAppDI\obj\Debug\net10.0\HRAppDI.AssemblyInfo.cs
+D:\sejalgit\csharp\Labs\Lab6\HRAppDI\obj\Debug\net10.0\HRAppDI.csproj.CoreCompileInputs.cache
+D:\sejalgit\csharp\Labs\Lab6\HRAppDI\obj\Debug\net10.0\HRAppDI.sourcelink.json
+D:\sejalgit\csharp\Labs\Lab6\HRAppDI\bin\Debug\net10.0\HRAppDI.exe
+D:\sejalgit\csharp\Labs\Lab6\HRAppDI\bin\Debug\net10.0\HRAppDI.deps.json
+D:\sejalgit\csharp\Labs\Lab6\HRAppDI\bin\Debug\net10.0\HRAppDI.runtimeconfig.json
+D:\sejalgit\csharp\Labs\Lab6\HRAppDI\bin\Debug\net10.0\HRAppDI.dll
+D:\sejalgit\csharp\Labs\Lab6\HRAppDI\bin\Debug\net10.0\HRAppDI.pdb
+D:\sejalgit\csharp\Labs\Lab6\HRAppDI\obj\Debug\net10.0\HRAppDI.dll
+D:\sejalgit\csharp\Labs\Lab6\HRAppDI\obj\Debug\net10.0\refint\HRAppDI.dll
+D:\sejalgit\csharp\Labs\Lab6\HRAppDI\obj\Debug\net10.0\HRAppDI.pdb
+D:\sejalgit\csharp\Labs\Lab6\HRAppDI\obj\Debug\net10.0\HRAppDI.genruntimeconfig.cache
+D:\sejalgit\csharp\Labs\Lab6\HRAppDI\obj\Debug\net10.0\ref\HRAppDI.dll
