@@ -16,19 +16,19 @@ public void OnClaimRegistered(Claim claim) {
           Console.WriteLine("Supporting documents validated.");
            Console.WriteLine("====================================");
             } 
-            public void OnClaimApproved(Claim claim) {
-                 Console.WriteLine("====================================");
-                 
-                  Console.WriteLine($"Claim {claim.ClaimId} approved."); 
-                  Console.WriteLine("Settlement process initiated."); 
-          
-                  Console.WriteLine("===================================="); }
-                   public void OnClaimRejected(Claim claim) {
-                     Console.WriteLine("====================================");
-                      Console.WriteLine($"Claim {claim.ClaimId} rejected."); 
-                      Console.WriteLine("Customer will be notified with the reason.");
-                       Console.WriteLine("===================================="); 
-                       } 
+ public void OnClaimApproved(Claim claim) {
+    Console.WriteLine("====================================");
+                                            
+    Console.WriteLine($"Claim {claim.ClaimId} approved."); 
+    Console.WriteLine("Settlement process initiated."); 
+                                    
+    Console.WriteLine("===================================="); }
+                                            public void OnClaimRejected(Claim claim) {
+                                                Console.WriteLine("====================================");
+                                                Console.WriteLine($"Claim {claim.ClaimId} rejected."); 
+                                                Console.WriteLine("Customer will be notified with the reason.");
+                                                Console.WriteLine("===================================="); 
+                                                } 
                        
                        public void OnClaimSettled(Claim claim) { 
                         Console.WriteLine("====================================");
