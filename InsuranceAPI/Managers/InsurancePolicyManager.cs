@@ -1,90 +1,198 @@
-namespace InsuranceAPI.Managers;
-
-using System.Drawing;
-using System.Runtime.InteropServices.Marshalling;
-using System.Text.Json;
-using InsuranceAPI.Delegate;
-using InsuranceAPI.Models;
-using Microsoft.AspNetCore.Routing.Constraints;
+namespace MaxNewYorkInsurance.Managers;
+using MaxNewYorkInsurance.Agents;
+using MaxNewYorkInsurance.Models;
 
 public class InsurancePolicyManager
 {
-    //evnets
-    public event Insurance policyPurchased;
-    public event Insurance claimRegistered;
-    public event Insurance premiumPaid;
-    public event Insurance policyRenewed;
 
-    public void  PurchasePolicy(Policy policy)
-    {
-        Console.WriteLine(policy.CustomerName + "" + policy.PolicyType);
-        List<Policy> policies=GetAllPolicies();
-        policies.Add(policy);
-        this.SaveAllPolicies(policies);
-        policyPurchased.Invoke(); 
-       
+// Sales Events
+public event AccountsAgent? policyPurchased;
+public event SalesAgent? policyQuoted;
+public event SalesAgent? policyUpdated;
+public event SalesAgent? policyCancelled;
+public event SalesAgent? leadGenerated;
+public event SalesAgent? discountOffered;
 
-    }
-    public void RegisterClaim()
-    {
-        claimRegistered.Invoke();
-        Console.WriteLine("Claim Registered Successfully");
+// Customer Events
+public event CustomerAgent? customerRegistered;
+public event CustomerAgent? customerUpdated;
+public event CustomerAgent? customerDeactivated;
+public event CustomerAgent? kycVerified;
+
+// Premium & Accounts Events
+public event PremiumAgent? premiumPaid;
+public event PremiumAgent? premiumRefunded;
+public event PremiumAgent? premiumReminderGenerated;
+public event PremiumAgent? lateFeeApplied;
+public event AccountsAgent? paymentReceiptGenerated;
+
+// Renewal Events
+public event RenewalAgent? policyRenewed;
+public event RenewalAgent? renewalReminderSent;
+public event RenewalAgent? renewalExpired;
+
+// Claim Events
+public event ClaimsAgent? claimRegistered;
+public event ClaimsAgent? claimVerified;
+public event ClaimsAgent? claimApproved;
+public event ClaimsAgent? claimRejected;
+public event ClaimsAgent? claimSettled;
+public event ClaimsAgent? fraudCheckRequested;
+
+// Policy Administration Events
+public event PolicyAgent? policyIssued;
+public event PolicyAgent? policyAssigned;
+public event PolicyAgent? policyDocumentGenerated;
+public event PolicyAgent? nomineeUpdated;
+public event PolicyAgent? beneficiaryChanged;
+
+// Notification Events
+public event NotificationAgent? emailSent;
+public event NotificationAgent? smsSent;
+public event NotificationAgent? policyDocumentSent;
+
+// Audit & Compliance Events
+public event AuditAgent? policyAudited;
+public event AuditAgent? complianceChecked;
+public event AuditAgent? regulatoryReportGenerated;
+
+// Agent & Employee Events
+public event AgentManagementAgent? agentAssigned;
+public event AgentManagementAgent? agentCommissionCalculated;
+public event AgentManagementAgent? agentCommissionPaid;
+
+// Reporting Events
+public event ReportAgent? dailyReportGenerated;
+public event ReportAgent? monthlyReportGenerated;
+public event ReportAgent? annualReportGenerated;
+
+
+    public void PurchasePolicy(Policy policy)
+    {   
+        policyPurchased?.Invoke(policy);
     }
 
-    public void  RenewPolicy()
+    public void RegisterClaim(Claim claim)
     {
-        policyRenewed.Invoke();
-        Console.WriteLine(" Existing Policy renewed Successfully");
+        claimRegistered?.Invoke(claim);
     }
-      public void  PayPremium(Premium premium)
+
+    public void  RenewPolicy(string policyNumber)
     {
-         List<Premium> premiums =GetAllPremimum();
-        premiums.Add(premium);
-        this.SaveAllPremium(premiums);
-        policyPurchased.Invoke(); 
-        premiumPaid.Invoke();
+        policyRenewed?.Invoke(policyNumber);   
+    }
+ 
+    public void PayPremium(Premium premium)
+    {
+        premiumPaid.Invoke(premium);
         Console.WriteLine("Premium is paid Successfully");
-         }
+    } 
 
-    public List<Policy> GetAllPolicies()
-    {
-        string fileName=@"/home/tfl/Downloads/InsuranceRestAPIApp (2)/InsuranceRestAPIApp/InsuranceRestAPIApp/Data/licies.json";
-        string jsonString=File.ReadAllText(fileName);
-        var options = new JsonSerializerOptions{ PropertyNameCaseInsensitive = true};
-        List<Policy>? policies =JsonSerializer.Deserialize<List<Policy>>(jsonString,options);
-        return   policies;
-    }
+    public void RegisterCustomer(Customer customer)
+{
+    customerRegistered?.Invoke(customer);
+}
+
+public void UpdateCustomer(Customer customer)
+{
+    customerUpdated?.Invoke(customer);
+}
+
+public void DeactivateCustomer(int customerId)
+{
+    customerDeactivated?.Invoke(customerId);
+}
+public void CancelPolicy(string policyNumber)
+{
+    policyCancelled?.Invoke(policyNumber);
+}
+
+public void UpdatePolicy(Policy policy)
+{
+    policyUpdated?.Invoke(policy);
+}
+
+public void AssignPolicyAgent(string policyNumber, Agent agent)
+{
+    policyAssigned?.Invoke(policyNumber, agent);
+}
+
+public void GeneratePremiumReminder(string policyNumber)
+{
+    premiumReminderGenerated?.Invoke(policyNumber);
+}
+
+public void RefundPremium(Premium premium)
+{
+    premiumRefunded?.Invoke(premium);
+}
+
+public void ApplyLateFee(string policyNumber)
+{
+    lateFeeApplied?.Invoke(policyNumber);
+}
 
 
-    public bool SaveAllPolicies(List<Policy> policies)
-    {
-        bool status = false;
-        string fileName = @"/home/tfl/Downloads/InsuranceRestAPIApp (2)/InsuranceRestAPIApp/InsuranceRestAPIApp/Data/payPremuim.json";
-        var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
-        string jsonString = JsonSerializer.Serialize(policies, options);
-        File.WriteAllText(fileName, jsonString);
-        status = true;
-        return status;
-    }
+public void ApproveClaim(Claim claim)
+{
+    claimApproved?.Invoke(claim);
+}
 
-      public List<Premium> GetAllPremimum()
-    {
-        string fileName=@"/home/tfl/Downloads/InsuranceRestAPIApp (2)/InsuranceRestAPIApp/InsuranceRestAPIApp/Data/payPremuim.json";
-        string jsonString=File.ReadAllText(fileName);
-        var options = new JsonSerializerOptions{ PropertyNameCaseInsensitive = true};
-        List<Premium>? premiums =JsonSerializer.Deserialize<List<Premium>>(jsonString,options);
-        return   premiums;
-    }
+public void RejectClaim(Claim claim)
+{
+    claimRejected?.Invoke(claim);
+}
+
+public void SettleClaim(Claim claim)
+{
+    claimSettled?.Invoke(claim);
+}
+
+public void GenerateLead(Customer customer)
+{
+    leadGenerated?.Invoke(customer);
+}
+
+public void LaunchCampaign(string campaignName)
+{
+    marketingCampaignLaunched?.Invoke(campaignName);
+}
+
+public void OfferDiscount(string policyNumber)
+{
+    discountOffered?.Invoke(policyNumber);
+}
+
+public void SendPolicyDocument(string policyNumber)
+{
+    policyDocumentSent?.Invoke(policyNumber);
+}
+
+public void SendRenewalReminder(string policyNumber)
+{
+    renewalReminderSent?.Invoke(policyNumber);
+}
+
+public void SendPaymentReceipt(Premium premium)
+{
+    paymentReceiptSent?.Invoke(premium);
+}
 
 
-    public bool  SaveAllPremium(List<Premium> premiums)
-    {
-        bool status=false;
-        string fileName=@"/home/tfl/Downloads/InsuranceRestAPIApp (2)/InsuranceRestAPIApp/InsuranceRestAPIApp/Data/payPremuim.json";
-        var options = new JsonSerializerOptions{ PropertyNameCaseInsensitive = true};
-        string jsonString=JsonSerializer.Serialize(premiums,options);
-        File.WriteAllText(fileName, jsonString);
-        status=true;
-        return status;
-    }
+public void AuditPolicy(string policyNumber)
+{
+    policyAudited?.Invoke(policyNumber);
+}
+
+public void VerifyKYC(Customer customer)
+{
+    kycVerified?.Invoke(customer);
+}
+
+public void DetectFraud(Claim claim)
+{
+    fraudCheckRequested?.Invoke(claim);
+}
+
+
 }
