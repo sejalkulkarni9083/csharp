@@ -1,5 +1,5 @@
-namespace BankManagementSystem.Services
-{
+namespace BankManagementSystem.Services;
+
     public class EmailNotification : INotification
     {
         public void Notify(string message)
@@ -7,4 +7,4 @@ namespace BankManagementSystem.Services
             Console.WriteLine($"Email Notification: {message}");
         }
     }
-}
+

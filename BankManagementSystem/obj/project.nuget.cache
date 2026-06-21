@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "version": 2,
   "dgSpecHash": "BsBqOPz4O1k=",
@@ -5,4 +6,13 @@
   "projectFilePath": "D:\\sejalgit\\csharp\\BankManagementSystem\\BankManagementSystem.csproj",
   "expectedPackageFiles": [],
   "logs": []
+=======
+{
+  "version": 2,
+  "dgSpecHash": "BsBqOPz4O1k=",
+  "success": true,
+  "projectFilePath": "D:\\sejalgit\\csharp\\BankManagementSystem\\BankManagementSystem.csproj",
+  "expectedPackageFiles": [],
+  "logs": []
+>>>>>>> a445b92bcbc612b1f01514443bfe6af4909ed32e
 }
