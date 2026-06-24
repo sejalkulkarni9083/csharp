@@ -1,0 +1,15 @@
+/home/tfl/sejal/csharp/BankManagementSystem/obj/Debug/net9.0/BankManagementSystem.GeneratedMSBuildEditorConfig.editorconfig
+/home/tfl/sejal/csharp/BankManagementSystem/obj/Debug/net9.0/BankManagementSystem.AssemblyInfoInputs.cache
+/home/tfl/sejal/csharp/BankManagementSystem/obj/Debug/net9.0/BankManagementSystem.AssemblyInfo.cs
+/home/tfl/sejal/csharp/BankManagementSystem/obj/Debug/net9.0/BankManagementSystem.csproj.CoreCompileInputs.cache
+/home/tfl/sejal/csharp/BankManagementSystem/obj/Debug/net9.0/BankManagementSystem.sourcelink.json
+/home/tfl/sejal/csharp/BankManagementSystem/bin/Debug/net9.0/BankManagementSystem
+/home/tfl/sejal/csharp/BankManagementSystem/bin/Debug/net9.0/BankManagementSystem.deps.json
+/home/tfl/sejal/csharp/BankManagementSystem/bin/Debug/net9.0/BankManagementSystem.runtimeconfig.json
+/home/tfl/sejal/csharp/BankManagementSystem/bin/Debug/net9.0/BankManagementSystem.dll
+/home/tfl/sejal/csharp/BankManagementSystem/bin/Debug/net9.0/BankManagementSystem.pdb
+/home/tfl/sejal/csharp/BankManagementSystem/obj/Debug/net9.0/BankManagementSystem.dll
+/home/tfl/sejal/csharp/BankManagementSystem/obj/Debug/net9.0/refint/BankManagementSystem.dll
+/home/tfl/sejal/csharp/BankManagementSystem/obj/Debug/net9.0/BankManagementSystem.pdb
+/home/tfl/sejal/csharp/BankManagementSystem/obj/Debug/net9.0/BankManagementSystem.genruntimeconfig.cache
+/home/tfl/sejal/csharp/BankManagementSystem/obj/Debug/net9.0/ref/BankManagementSystem.dll
