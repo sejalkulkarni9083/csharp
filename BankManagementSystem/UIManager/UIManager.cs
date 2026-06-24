@@ -48,12 +48,14 @@ public class UIManager
     private void DepositUI()
     {
         Console.WriteLine("Enter Account number:");
-        if (!int.TryParse(Console.ReadLine(), out int accNumber)) return;
+        //if (!int.TryParse(Console.ReadLine(), out int accNumber)) return;
+        int accNumber = Convert.ToInt32(Console.ReadLine());
 
         Console.WriteLine("Enter Amount to Deposit");
-        if (!double.TryParse(Console.ReadLine(), out double amount)) return;
+        //if (!double.TryParse(Console.ReadLine(), out double amount)) return;
+        double amount = Convert.ToInt32(Console.ReadLine());
 
-        accmanager.DepositToAccount(accNumber, amount);
+        accmanager.Deposit(accNumber, amount);
         Console.WriteLine($"Amount {amount} Deposited to Account number {accNumber}");
     }
 
@@ -65,7 +67,7 @@ public class UIManager
         Console.WriteLine("Enter Amount to Withdraw:");
         if (!double.TryParse(Console.ReadLine(), out double amount)) return;
 
-        accmanager.WithdrawFromAccount(accNumber, amount);
+        accmanager.Withdraw(accNumber, amount);
         Console.WriteLine($"Amount {amount} withdrawn from account number {accNumber}");
     }
 

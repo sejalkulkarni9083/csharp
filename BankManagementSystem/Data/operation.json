@@ -1,5 +1,20 @@
-[{  "depositAccNum": 1001,  "withdrawAccNum": 2001,"amount": 2000,"operationType": "Deposit"},
-{  "depositAccNum": 1002,  "withdrawAccNum": 2002,"amount": 300,"operationType": "Withdraw"},
-{  "depositAccNum": 1003,  "withdrawAccNum": 2003,"amount": 500,"operationType": "Withdraw"},
-{  "depositAccNum": 1004,  "withdrawAccNum": 2004,"amount": 5000,"operationType": "Deposit"}]
-
+[
+    {
+        "DepositAccNum": 1001,
+        "WithdrawAccNum": 0,
+        "Amount": 10000,
+        "OperationType": "Deposit"
+    },
+    {
+        "DepositAccNum": 0,
+        "WithdrawAccNum": 1001,
+        "Amount": 10000,
+        "OperationType": "Withdraw"
+    },
+    {
+        "DepositAccNum": 1002,
+        "WithdrawAccNum": 1001,
+        "Amount": 10000,
+        "OperationType": "Transfer"
+    }
+]

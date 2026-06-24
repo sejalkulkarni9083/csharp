@@ -1,4 +1,3 @@
-
 using BankManagementSystem.Deposit;
 using BankManagementSystem.Withdraw;
 using BankManagementSystem.FundTransfer;
@@ -17,7 +16,10 @@ public class AccountService : IDepositOperation, IWithdrawOperation, IFundTransf
     public List<Account> accounts { get; set; }
     private INotificationService _service;
     private AccountsRepository accountrepo = new AccountsRepository();
+
     public List<IAccountListener> listeners = new List<IAccountListener>();
+
+    private OperationsRepository operationRepo = new OperationsRepository();
 
     public AccountService(List<Account> accounts, INotificationService notificationService)
     {
@@ -40,53 +42,126 @@ public class AccountService : IDepositOperation, IWithdrawOperation, IFundTransf
         return 0;
     }
 
-    // Concrete account-specific operations
-    public void DepositToAccount(int accountNumber, double amount)
+    public void Deposit(int accountNumber, double amount)
     {
         var acc = accounts.FirstOrDefault(a => a.AccountNumber == accountNumber);
-        if (acc == null) return;
+
+        if (acc == null)
+        {
+            Console.WriteLine("Account not found");
+            return;
+        }
+
         acc.Balance += amount;
         acc.LastTransactionDate = DateTime.Now;
-        Console.WriteLine($"Balance in account with id {acc.AccountNumber} after deposit is {acc.Balance}");
+
         CheckBalance(acc);
+
+        SaveOperation(0, accountNumber, amount, "Deposit");
+
         accountrepo.SaveAllAccounts(accounts);
+
+        Console.WriteLine($"Amount {amount} deposited successfully");
     }
 
-    public void WithdrawFromAccount(int accountNumber, double amount)
+    public void Withdraw(int accountNumber, double amount)
     {
         var acc = accounts.FirstOrDefault(a => a.AccountNumber == accountNumber);
-        if (acc == null) return;
+
+        if (acc == null)
+        {
+            Console.WriteLine("Account not found");
+            return;
+        }
+
+        if (acc.Balance < amount)
+        {
+            Console.WriteLine("Insufficient balance");
+            return;
+        }
+
         acc.Balance -= amount;
         acc.LastTransactionDate = DateTime.Now;
-        Console.WriteLine($"Balance in account with id {acc.AccountNumber} after withdraw is {acc.Balance}");
+
+        CheckBalance(acc);
+
+        SaveOperation(accountNumber, 0, amount, "Withdraw");
+
         accountrepo.SaveAllAccounts(accounts);
+
+        Console.WriteLine($"Amount {amount} withdrawn successfully");
+    }
+    public void TransferFunds(string fromAccount,
+                              string toAccount,
+                              double amount)
+    {
+        if (!int.TryParse(fromAccount, out int fromAccNo))
+        {
+            Console.WriteLine("Invalid sender account");
+            return;
+        }
+
+        if (!int.TryParse(toAccount, out int toAccNo))
+        {
+            Console.WriteLine("Invalid receiver account");
+            return;
+        }
+
+        var sender = accounts.FirstOrDefault(a => a.AccountNumber == fromAccNo);
+        var receiver = accounts.FirstOrDefault(a => a.AccountNumber == toAccNo);
+
+        if (sender == null)
+        {
+            Console.WriteLine("Sender account not found");
+            return;
+        }
+
+        if (receiver == null)
+        {
+            Console.WriteLine("Receiver account not found");
+            return;
+        }
+
+        if (sender.Balance < amount)
+        {
+            Console.WriteLine("Insufficient balance");
+            return;
+        }
+
+        sender.Balance -= amount;
+        receiver.Balance += amount;
+
+        sender.LastTransactionDate = DateTime.Now;
+        receiver.LastTransactionDate = DateTime.Now;
+
+        CheckBalance(sender);
+        CheckBalance(receiver);
+        SaveOperation(fromAccNo, toAccNo, amount, "Transfer");
+        accountrepo.SaveAllAccounts(accounts);
+
+        Console.WriteLine("Fund transferred successfully");
     }
 
-    // Interface implementations (minimal behavior)
-    public void Deposit(double amount)
+   
+    private void SaveOperation(int fromAcc, int toAcc, double amount, string type)
     {
-        if (accounts.Count == 0) return;
-        DepositToAccount(accounts[0].AccountNumber, amount);
-    }
+        var operations = operationRepo.GetAllOperations();
 
-    public void Withdraw(double amount)
-    {
-        if (accounts.Count == 0) return;
-        WithdrawFromAccount(accounts[0].AccountNumber, amount);
-    }
+        operations.Add(new Operations
+        {
+            WithdrawAccNum = fromAcc,
+            DepositAccNum = toAcc,
+            Amount = amount,
+            OperationType = type
+        });
 
-    public void TransferFunds(string fromAccount, string toAccount, double amount)
-    {
-        if (!int.TryParse(fromAccount, out int fromAcc)) return;
-        if (!int.TryParse(toAccount, out int toAcc)) return;
-
-        WithdrawFromAccount(fromAcc, amount);
-        DepositToAccount(toAcc, amount);
+        operationRepo.SaveAllOperations(operations);
     }
 
     private void CheckBalance(Account account)
     {
         IAccountListener listener = new AccountDepartment();
+
         if (account.Balance < 1000)
         {
             listener.OnUnderBalance(account.Balance);
