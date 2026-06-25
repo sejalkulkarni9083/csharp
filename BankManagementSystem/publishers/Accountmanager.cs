@@ -174,4 +174,17 @@ public class AccountService : IDepositOperation, IWithdrawOperation, IFundTransf
             listener.OnOverBalance(account.Balance);
         }
     }
+
+
+     public List<Operations> GetMiniStatement(string accountId)
+        {
+            List<Operations> miniStatement = new List<Operations>();
+            List<Operations> allOperations = OperationsRepository.GetAllOperations();
+            miniStatement = allOperations
+                            .Where(o => o.AccountNumber == accountId)
+                            .Take(5)
+                            .ToList();
+            return miniStatement;
+        }
+
 }
