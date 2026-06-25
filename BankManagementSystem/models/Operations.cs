@@ -8,5 +8,7 @@
 
     public double Amount {get; set;}
 
-    public string OperationType {get; set;}
+    public string OperationType { get; set; }
+    
+    public DateTime TransactionDate { get; set; }
  }

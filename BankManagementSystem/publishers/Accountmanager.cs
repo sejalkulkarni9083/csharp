@@ -147,12 +147,15 @@ public class AccountService : IDepositOperation, IWithdrawOperation, IFundTransf
     {
         var operations = operationRepo.GetAllOperations();
 
+
         operations.Add(new Operations
         {
             WithdrawAccNum = fromAcc,
             DepositAccNum = toAcc,
             Amount = amount,
-            OperationType = type
+            OperationType = type,
+            TransactionDate = DateTime.Now
+
         });
 
         operationRepo.SaveAllOperations(operations);

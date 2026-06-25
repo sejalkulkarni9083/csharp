@@ -16,5 +16,11 @@
         "WithdrawAccNum": 1001,
         "Amount": 10000,
         "OperationType": "Transfer"
+    },
+    {
+        "DepositAccNum": 1001,
+        "WithdrawAccNum": 0,
+        "Amount": 10000,
+        "OperationType": "Deposit"
     }
 ]
