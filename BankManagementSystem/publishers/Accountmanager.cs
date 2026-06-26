@@ -176,15 +176,18 @@ public class AccountService : IDepositOperation, IWithdrawOperation, IFundTransf
     }
 
 
-     public List<Operations> GetMiniStatement(string accountId)
-        {
-            List<Operations> miniStatement = new List<Operations>();
-            List<Operations> allOperations = OperationsRepository.GetAllOperations();
-            miniStatement = allOperations
-                            .Where(o => o.AccountNumber == accountId)
-                            .Take(5)
-                            .ToList();
-            return miniStatement;
-        }
+     public List<Operations> MiniStatement (int accountId){
+
+        List<Operations> ministatement =new List<Operations>();
+        List<Operations> allOperations = operationRepo.GetAllOperations();
+        ministatement=allOperations
+                      .Where(operations => operations.DepositAccNum == accountId ||
+                                           operations.WithdrawAccNum == accountId)
+                      .OrderByDescending(op => op.TransactionDate)
+                      .Take(5)
+                      .ToList();
+
+         return ministatement;             
+     }
 
 }

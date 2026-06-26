@@ -24,7 +24,8 @@ public class UIManager
             Console.WriteLine("1. Deposit");
             Console.WriteLine("2. Withdraw");
             Console.WriteLine("3. FundTransfer");
-            Console.WriteLine("4. exit");
+            Console.WriteLine("4. MiniStatement");
+            Console.WriteLine("5. exit");
 
             if (!int.TryParse(Console.ReadLine(), out int choice)) continue;
 
@@ -40,6 +41,9 @@ public class UIManager
                     FundTransferUI();
                     break;
                 case 4:
+                    MiniStatementUI();
+                    break;
+                case 5:
                     return;
             }
         }
@@ -85,4 +89,30 @@ public class UIManager
         accmanager.TransferFunds(fromAcc.ToString(), toAcc.ToString(), amount);
         Console.WriteLine($"Amount {amount} is Transferred from account {fromAcc} to account No {toAcc}");
     }
+
+    private void MiniStatementUI()
+{
+    Console.WriteLine("Enter Account Number:");
+    int accno = Convert.ToInt32(Console.ReadLine());
+
+    List<Operations> statement = accmanager.MiniStatement(accno);
+
+    if (statement.Count == 0)
+    {
+        Console.WriteLine("No transactions found.");
+        return;
+    }
+
+    Console.WriteLine("\n----- Mini Statement -----");
+
+    foreach (Operations op in statement)
+    {
+        Console.WriteLine($"Date              : {op.TransactionDate}");
+        Console.WriteLine($"Deposit Account number  : {op.DepositAccNum}");
+        Console.WriteLine($"Withdraw Account number  : {op.WithdrawAccNum}");
+        Console.WriteLine($"Amount            : {op.Amount}");
+        Console.WriteLine($"OperationType: {op.OperationType}");
+        Console.WriteLine("-----------------------------------");
+    }
+}
 }
