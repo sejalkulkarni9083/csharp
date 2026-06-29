@@ -1,0 +1,15 @@
+/home/tfl/sejal/csharp/Arrays/bin/Debug/net9.0/Arrays
+/home/tfl/sejal/csharp/Arrays/bin/Debug/net9.0/Arrays.deps.json
+/home/tfl/sejal/csharp/Arrays/bin/Debug/net9.0/Arrays.runtimeconfig.json
+/home/tfl/sejal/csharp/Arrays/bin/Debug/net9.0/Arrays.dll
+/home/tfl/sejal/csharp/Arrays/bin/Debug/net9.0/Arrays.pdb
+/home/tfl/sejal/csharp/Arrays/obj/Debug/net9.0/Arrays.GeneratedMSBuildEditorConfig.editorconfig
+/home/tfl/sejal/csharp/Arrays/obj/Debug/net9.0/Arrays.AssemblyInfoInputs.cache
+/home/tfl/sejal/csharp/Arrays/obj/Debug/net9.0/Arrays.AssemblyInfo.cs
+/home/tfl/sejal/csharp/Arrays/obj/Debug/net9.0/Arrays.csproj.CoreCompileInputs.cache
+/home/tfl/sejal/csharp/Arrays/obj/Debug/net9.0/Arrays.sourcelink.json
+/home/tfl/sejal/csharp/Arrays/obj/Debug/net9.0/Arrays.dll
+/home/tfl/sejal/csharp/Arrays/obj/Debug/net9.0/refint/Arrays.dll
+/home/tfl/sejal/csharp/Arrays/obj/Debug/net9.0/Arrays.pdb
+/home/tfl/sejal/csharp/Arrays/obj/Debug/net9.0/Arrays.genruntimeconfig.cache
+/home/tfl/sejal/csharp/Arrays/obj/Debug/net9.0/ref/Arrays.dll
